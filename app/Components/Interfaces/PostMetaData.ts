@@ -4,7 +4,11 @@ date: number,
 excerpt: string,
 slug: string,
 coverImage: string,
-author: []
+author: {
+    url: string
+    name: string
+    picture: string
+}
 
 
 }
