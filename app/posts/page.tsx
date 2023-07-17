@@ -1,6 +1,5 @@
 import getPostMetaData from "../Components/Interfaces/getPostMetaData"
 import PostPreview from "../Components/PostPreview"
-import { EmailShareButton, EmailShareCount } from "react-share"
 
 
 
@@ -22,7 +21,7 @@ return (<div>
   <p className="my-24">Want to contribute something? Fill in this form or email Admin at @humanistszim.co.zw</p>
 
   <div>
-<EmailShareButton shar/>
+Share items go here
   </div>
 
 </div>
