@@ -24,14 +24,14 @@ const Post = (props: any) => {
   const post = getPostContent(slug)
   return (
     <div>
-     <h1 className='text-4xl font-bold mt-8 text-center'>{post.data.title}</h1>
-     <div className='align-center'>
+     <h1 className='text-4xl font-bold mt-8 text-center py-8 px-32'>{post.data.title}</h1>
+     <div className='align-center '>
      <Image
      alt={'decorative image'}
      height={700}
      width={480}
      src={post.data.coverImage}
-     className='inline-block' 
+     className='mx-auto block' 
     />
      </div>
    

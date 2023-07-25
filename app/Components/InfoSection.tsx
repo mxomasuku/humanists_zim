@@ -15,13 +15,13 @@ const sectionData = [
 {"id": 1,
 "title" : "Blog",
 'url': "/posts",
-"image": "/StaticResources/yhz.png",
+"image": "/StaticResources/YhzName.png",
 "info": "Local and international articles about Humanism"
 },
 {"id": 2,
 'url': "/donate",
 "title" : "Donate",
-"image": "/StaticResources/yhz.png",
+"image": "/StaticResources/YhzName.png",
 "info": "Your support keep us moving. See how you can help and support our cause."
 },
 {"id": 3,
