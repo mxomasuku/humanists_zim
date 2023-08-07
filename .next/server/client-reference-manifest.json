@@ -144,9 +144,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/donate/page.tsx": {
+    "(app-client)/./app/Components/PostFooter.tsx": {
       "*": {
-        "id": "(sc_client)/./app/donate/page.tsx",
+        "id": "(sc_client)/./app/Components/PostFooter.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -168,9 +168,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/Components/PostFooter.tsx": {
+    "(app-client)/./app/about/yhz/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/Components/PostFooter.tsx",
+        "id": "(sc_client)/./app/about/yhz/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/donate/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/donate/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -179,6 +187,14 @@
     "(app-client)/./app/store/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/store/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/about/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/about/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -195,14 +211,6 @@
     "(app-client)/./app/about/faq/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/about/faq/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/about/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/about/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -483,11 +491,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\User\\humanists_zim\\app\\donate\\page.tsx": {
-      "id": "(app-client)/./app/donate/page.tsx",
+    "C:\\Users\\User\\humanists_zim\\app\\Components\\PostFooter.tsx": {
+      "id": "(app-client)/./app/Components/PostFooter.tsx",
       "name": "*",
       "chunks": [
-        "app/donate/page:static/chunks/app/donate/page.js"
+        "app/posts/[slug]/page:static/chunks/app/posts/[slug]/page.js"
       ],
       "async": false
     },
@@ -507,11 +515,19 @@
       ],
       "async": false
     },
-    "C:\\Users\\User\\humanists_zim\\app\\Components\\PostFooter.tsx": {
-      "id": "(app-client)/./app/Components/PostFooter.tsx",
+    "C:\\Users\\User\\humanists_zim\\app\\about\\yhz\\page.tsx": {
+      "id": "(app-client)/./app/about/yhz/page.tsx",
       "name": "*",
       "chunks": [
-        "app/posts/[slug]/page:static/chunks/app/posts/[slug]/page.js"
+        "app/about/yhz/page:static/chunks/app/about/yhz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\User\\humanists_zim\\app\\donate\\page.tsx": {
+      "id": "(app-client)/./app/donate/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/donate/page:static/chunks/app/donate/page.js"
       ],
       "async": false
     },
@@ -520,6 +536,14 @@
       "name": "*",
       "chunks": [
         "app/store/page:static/chunks/app/store/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\User\\humanists_zim\\app\\about\\page.tsx": {
+      "id": "(app-client)/./app/about/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
     },
@@ -536,14 +560,6 @@
       "name": "*",
       "chunks": [
         "app/about/faq/page:static/chunks/app/about/faq/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\User\\humanists_zim\\app\\about\\page.tsx": {
-      "id": "(app-client)/./app/about/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
     }
@@ -565,7 +581,7 @@
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\User\\humanists_zim\\app\\donate\\page": {
+    "C:\\Users\\User\\humanists_zim\\app\\posts\\[slug]\\page": {
       "modules": [],
       "files": []
     },
@@ -573,15 +589,23 @@
       "modules": [],
       "files": []
     },
+    "C:\\Users\\User\\humanists_zim\\app\\about\\yhz\\page": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\User\\humanists_zim\\app\\posts\\page": {
       "modules": [],
       "files": []
     },
-    "C:\\Users\\User\\humanists_zim\\app\\posts\\[slug]\\page": {
+    "C:\\Users\\User\\humanists_zim\\app\\donate\\page": {
       "modules": [],
       "files": []
     },
     "C:\\Users\\User\\humanists_zim\\app\\store\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\User\\humanists_zim\\app\\about\\page": {
       "modules": [],
       "files": []
     },
@@ -590,10 +614,6 @@
       "files": []
     },
     "C:\\Users\\User\\humanists_zim\\app\\about\\faq\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\User\\humanists_zim\\app\\about\\page": {
       "modules": [],
       "files": []
     }
