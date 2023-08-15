@@ -40,7 +40,7 @@ id: 5}
           alt='logo'
           height={75}
           width={150}
-          src={'/Logos/logoName@2x.png'}/>
+          src={'/Logos/LogoName@2x.png'}/>
         </Heading>
     </Box>
     <Box>
