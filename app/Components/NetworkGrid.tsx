@@ -45,14 +45,14 @@ const communities = [
     },
     {
       'title': 'Humanistically Speaking',
-      'image':'/StaticResources/freethinker.png',
+      'image':'/StaticResources/humanistspeaking.webp',
       'description': 'Online Magazine Speaking out for non-religious people',
       'scope': 'Based in the UK, global influence',
       'url': '//www.humanisticallyspeaking.org/'
     },
     {
       'title': 'Freethinker',
-      'image': '/StaticResources/humanistspeaking.webp',
+      'image': '/StaticResources/freethinker.png',
       'description': 'An exciting platform for the curious. Est 1881',
       'scope': 'Featuring authors from all over the world',
       'url': 'https://freethinker.co.uk/'

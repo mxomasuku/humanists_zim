@@ -9,7 +9,7 @@ ogImage:
 date: 2021-03-06T22:00:00.000+00:00
 author:
   name: Mxolisi B Masuku
-  picture: "/uploads/mxomasuku.jpg"
+  picture: "/StaticResources/mxolisi.jpg"
   url: '/mxolisi_b_masuku'
 
 ---

@@ -1,7 +1,7 @@
 ---
-title: How African Secular Humanists Can Outstrip Religion dnd dhd dhd dhddhd dhd dhd dhd dhd dh 
+title: How African Secular Humanists Can Outstrip Religion
 category: Humanism
-excerpt: What if Humanism isn’t growing in Africa because we are not adapting yo fjf f fhf fhf fhf fhf fh to the continent’s contextual demands? 
+excerpt: What if Humanism isn’t growing in Africa because we are not adapting to the continent’s contextual demands? 
 featured: false
 coverImage: "/Uploads/berlinCode.jpg"
 ogImage:
@@ -9,7 +9,7 @@ ogImage:
 date: 2021-01-22T22:00:00.000+00:00
 author:
   name: Mxolisi B Masuku
-  picture: "/uploads/mxomasuku.jpg"
+  picture: "/StaticResources/mxolisi.jpg"
   url: '/mxolisi_b_masuku'
 
 ---
