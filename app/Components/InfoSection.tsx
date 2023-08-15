@@ -49,7 +49,7 @@ const InfoSection = () => {
 <SimpleGrid justifyContent={'center'} my={10} mx={12} columns={{base: 1, sm: 2, lg: 4}} rowGap={4} columnGap={{sm: 4}} alignItems={'center'}>
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
-            <Card w={{base: 300, sm: 250, md: 300}} h={300} bgColor={'black'}>
+            <Card w={{base: 300, sm: 250, md: 300}} h={300}>
               <CardHeader>
                 <Heading as={'h3'} size={'md'}>{item.title}</Heading>
               </CardHeader>
@@ -61,7 +61,7 @@ const InfoSection = () => {
               width={300}>
                 </Image>
               </CardBody>
-              <CardFooter fontSize={'sm'} mt={-8} textColor={'white'}>
+              <CardFooter fontSize={'sm'} mt={-8} textColor={'gray.600'}>
                 {item.info}
               </CardFooter>
             </Card>

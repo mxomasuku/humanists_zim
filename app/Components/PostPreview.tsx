@@ -8,7 +8,7 @@ const PostPreview = (props: PostMetaData) => {
 
     (<Link href={`/posts/${props.slug}`}>
 
-    <div className="grid mt-4 grid-cols-4 border border-gray-200 rounded-2 w-250">
+    <div className="grid mt-4 grid-cols-4 px-2 w-200 mx-2">
     <div className=" h-24 col-span-1 py-2  mx-2">
         <img
           src={props.coverImage}
@@ -16,7 +16,7 @@ const PostPreview = (props: PostMetaData) => {
           alt={`portrait of ${props.coverImage}`}
         />
       </div>
-      <div className="col-span-2 px-2 ">
+      <div className="col-span-2 px-2 pt-2 ">
         <h3 className="text-xs font-bold text-gray-700 lg:text-md xl:text-md overflow-hidden">
           {props.title}
         </h3>
