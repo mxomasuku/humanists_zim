@@ -13,7 +13,7 @@ const PostsLayout = () => {
   return (
 
     <div className="mx-8 mb-8">
-      <p className="text-2xl bg-black inline-block p-4 mb-4">From our Blog</p>
+      <p className="text-2xl bg-black inline-block p-4 mb-4 text-white">From our Blog</p>
     <div className="grid lg:grid-cols-3 lg:mx-16 ">
       {postPreviews}
     </div>

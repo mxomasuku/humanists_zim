@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const buttonSocials = [
   {name: 'Facebook',
-  url: '/about/faq',
+  url: 'https://www.facebook.com/humanistszim',
 icon: <FaFacebook/> },
   {name: 'Twitter',
   url: '/donate',
@@ -27,8 +27,8 @@ const footerButtons = [
     bgColor: 'white'
   },
   {
-    name: 'Donate',
-    url: '/donate',
+    name: 'Support',
+    url: '/support',
     bgColor: 'buttonPrimary.900'
   },
   {
@@ -51,12 +51,16 @@ const Footer = () => {
 <Box>
   {buttonSocials.map((buttonSocial) =>{
     return(
-      <IconButton
+      <a href={buttonSocial.url} target='blank'>
+          <IconButton
       key={buttonSocial.name}
       aria-label='button to our `${icon.name}$` link'
       icon={buttonSocial.icon}
       color={'brand.900'}
       bgColor={'black'}/>
+      </a>
+    
+      
     )
   })}
 </Box>
