@@ -4,6 +4,8 @@ import { Providers } from "./providers";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { ChakraProvider, Flex, extendTheme } from '@chakra-ui/react';
+import GoogleAnalytics from './Components/GoogleAnalytics';
+import CookieBanner from './Components/CookieBanner';
 
 
 // export const metadata = {
@@ -32,6 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_MEASUREMENT_ID='G-G5EBGL9D5X'/>
       <body className='body'>
         
         <Providers>
@@ -40,7 +43,7 @@ export default function RootLayout({
         
         <Header/>
           {children}
-       
+       <CookieBanner/>
        <Footer/>
         </Flex>
           </ChakraProvider>
