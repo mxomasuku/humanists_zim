@@ -131,6 +131,7 @@ const NetworkGrid = () => {
     {localCommunities.map((localCommunity)=>{
       return(
         <a href={localCommunity.link}
+        key={localCommunity.name}
     
         target='blank'>
           <Box>
@@ -158,12 +159,13 @@ const NetworkGrid = () => {
       {communities.map((community)=>{
       return(
     <a href={community.url}
+    key={community.name}
     
     target='blank'>
       <Box>
       <Heading as={'h4'} size={'sm'}>{community.name}</Heading>
       <Flex>
-        <Image 
+        <Image
         alt={'logo for' + `${community.name}`}
         src={community.image}
         width={75}
@@ -188,6 +190,7 @@ const NetworkGrid = () => {
       {magazines.map((magazine)=>{
       return(
     <a href={magazine.url}
+    key={magazine.title}
     target='blank'>
       <Box>
       <Heading as={'h4'} size={'sm'}>{magazine.title} </Heading>
@@ -217,6 +220,7 @@ const NetworkGrid = () => {
       {podcasts.map((podcast) => {
         return(
           <a href={podcast.url}
+          key={podcast.title}
           target='blank'>
             <Box my={4}>
             <Heading as={'h4'} size={'sm'}>{podcast.title}</Heading>

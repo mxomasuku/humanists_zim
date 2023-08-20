@@ -47,9 +47,6 @@ const CookieBanner = () => {
 </div>
 
 
-
-
-      
     </div>
   )
 }

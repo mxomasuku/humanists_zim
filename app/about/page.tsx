@@ -16,7 +16,7 @@ const faqs = [
 
 const AboutPage = () => {
   return (
-    <Box textAlign={'center'} p={36}>
+    <Box textAlign={'center'} p={{base:4, lg:36}}>
       <Box mb={16}>
         <Heading textDecoration={'underline'} pb={4} textDecorationColor={'brand.900'}>Our Mission</Heading>
         <Text fontSize={'2xl'}>{ourMission}</Text>
@@ -59,9 +59,10 @@ const AboutPage = () => {
       <Box>
         <Heading textDecoration={'underline'} textDecorationColor={'brand.900'}> Frequently Asked Questions About Atheism and Humanism</Heading>
           <Box >
-            <Accordion  allowMultiple allowToggle mt={8} px={{md: 8, lg:12}}>
+            <Accordion  allowMultiple mt={8} px={{md: 8, lg:12}}>
               {faqs.map((faq) => {return(
-                  <AccordionItem my={4}>
+                  <AccordionItem my={4}
+                  key={faq.question}>
                     <h2>
                     <AccordionButton>
                       <Text fontWeight={'bold'}>{faq.question}</Text>

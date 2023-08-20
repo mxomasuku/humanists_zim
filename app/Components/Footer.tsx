@@ -51,9 +51,10 @@ const Footer = () => {
 <Box>
   {buttonSocials.map((buttonSocial) =>{
     return(
-      <a href={buttonSocial.url} target='blank'>
+      <a href={buttonSocial.url} target='blank'
+      key={buttonSocial.name}>
           <IconButton
-      key={buttonSocial.name}
+      
       aria-label='button to our `${icon.name}$` link'
       icon={buttonSocial.icon}
       color={'brand.900'}
