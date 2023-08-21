@@ -1,5 +1,5 @@
 ---
-title: The Phobia Trapping Most Zimbabweans In Religion
+title: The Phobia Trapping Most Zimbabweans In Religion that you are suffering from something else
 category: religion
 excerpt: What you think is faith may be a sign that you are suffering from something else
 featured: false

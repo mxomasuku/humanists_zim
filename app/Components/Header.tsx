@@ -23,8 +23,8 @@ url: '/network'},
 {'route': 'About',
 id: 4,
 url: '/about'},
-{'route': 'Support',
-url: '/support',
+{'route': 'Support/Donate',
+url: '/donate',
 id: 5}
 
 

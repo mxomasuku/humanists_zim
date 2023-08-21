@@ -9,19 +9,19 @@ const sectionData = [
   {"id": 0,
   'url': "/about/yhz",
 "title" : "Young Humanists Zimbabwe",
-"image": "/StaticResources/yhz.png",
+"image": "/StaticResources/YhzName.png",
 "info": "Our section dedicated to Youths and the future of Humanism"
 },
 {"id": 1,
 "title" : "Blog",
 'url': "/posts",
-"image": "/StaticResources/blog.png",
+"image": "/StaticResources/YhzName.png",
 "info": "Local and international articles about Humanism"
 },
 {"id": 2,
-'url': "/support",
-"title" : "Support Us",
-"image": "/StaticResources/Support.jpg",
+'url': "/donate",
+"title" : "Donate",
+"image": "/StaticResources/YhzName.png",
 "info": "Your support keep us moving. See how you can help and support our cause."
 },
 {"id": 3,
@@ -53,9 +53,13 @@ const InfoSection = () => {
               <CardHeader>
                 <Heading as={'h3'} size={'md'}>{item.title}</Heading>
               </CardHeader>
-              <CardBody mt={-8}>
-                <Box h={150} bgImage={item.image} bgPosition={'center'} bgSize={'cover'}></Box>
-          
+              <CardBody h={260}>
+                <Image
+                alt = {'image for ' + `${item.title}` + ' card'}
+                src={item.image}
+              height={200}
+              width={300}>
+                </Image>
               </CardBody>
               <CardFooter fontSize={'sm'} mt={-8} textColor={'gray.600'}>
                 {item.info}
