@@ -26,13 +26,13 @@ const webPages = [
 const academicPapers = [
   {'title': 'A Redescriptive History of Humanism and Hermeneutics in African Philosophy',
 'author': 'Oladapo Jimoh Balogun : Department of Philosophy, Lagos State University, Ojo, Nigeria',
-'url': 'https://www.scirp.org/journal/paperinformation.aspx?paperid=28024',},
+'url': 'https://www.scirp.org/journal/paperinformation.aspx?paperid=28024'},
 {'title': 'African Humanism in Achebe in Relation to the West',
 'author': 'Edeh Department of Philosophy, University of Abuja, Abuja, Nigeria',
-'url': 'https://www.scirp.org/journal/paperinformation.aspx?paperid=28024',},
+'url': 'https://www.scirp.org/journal/paperinformation.aspx?paperid=28024'},
 {'title': 'Scientific Humanisms and the Anthropocene, Or the Dream of Steering the Evolution of the Human and Natural World',
 'author': 'Marianne Sommer (2020)',
-'url': 'https://www.practicasdahistoria.pt/article/download/24293/17972/93860',},
+'url': 'https://praticasdahistoria.pt/article/download/24293/17972/93860'},
 
 
 
