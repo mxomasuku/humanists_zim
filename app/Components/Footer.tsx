@@ -9,14 +9,14 @@ const buttonSocials = [
   url: 'https://www.facebook.com/humanistszim',
 icon: <FaFacebook/> },
   {name: 'Twitter',
-  url: '/donate',
+  url: 'https://twitter.com/HumanistsZim',
 icon: <FaTwitter/>},
-  {name: 'Instagram',
-  url: '/network',
-icon: <FaInstagram/> },
-  {name: 'YouTube',
-  url: '/network',
-icon: <FaYoutube/>},
+//   {name: 'Instagram',
+//   url: '/network',
+// icon: <FaInstagram/> },
+//   {name: 'YouTube',
+//   url: '/network',
+// icon: <FaYoutube/>},
   
 ]
 
