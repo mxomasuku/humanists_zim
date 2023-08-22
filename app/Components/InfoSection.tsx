@@ -9,19 +9,19 @@ const sectionData = [
   {"id": 0,
   'url': "/about/yhz",
 "title" : "Young Humanists Zimbabwe",
-"image": "/StaticResources/YhzName.png",
+"image": "/StaticResources/yhz.png",
 "info": "Our section dedicated to Youths and the future of Humanism"
 },
 {"id": 1,
 "title" : "Blog",
 'url': "/posts",
-"image": "/StaticResources/YhzName.png",
+"image": "/StaticResources/blog.png",
 "info": "Local and international articles about Humanism"
 },
 {"id": 2,
-'url': "/donate",
-"title" : "Donate",
-"image": "/StaticResources/YhzName.png",
+'url': "/support",
+"title" : "Support Us",
+"image": "/StaticResources/Support.jpg",
 "info": "Your support keep us moving. See how you can help and support our cause."
 },
 {"id": 3,
@@ -32,7 +32,7 @@ const sectionData = [
 
 }
 ]
-const aboutUs = 'We are pro-Human first, not anti-religion. For us, humanism is an ongoing philosophical conversation about being independent, sovereign and how to live right. As such we oppose religion strongly as an institution which undermines the agency of these three in human life. If you are reading this and you arent a humanist we say to you,"Free your mind and live right. Nothing you feel or desire should be held against you. You came into this world as a human not a sheep." Our aim therefore is to bring together all non-religious people in building a freethinking world guided by science and empathy. We believe our society is much better when religion is kept away from discourse about public policy and as such we promote and support any group of people suffering from religious oppression'
+const aboutUs = "We are a secular and humanistic community. For us, humanism is a human way of life which values welfare of the ecosystem in totality, independence, sovereign, justice, equality and ethical living. As such we oppose dogmatism, bigotry, hate speech, discrimination, injustice and all forms of oppression. Our aim is to bring together all non-religious people in building a freethinking Zimbabwe guided by science and empathy. We believe our society is much better when religion does not unfairly dominate discourse about public policy. As such we promote and support any group of people suffering from effects of religious bigotry."
 const ourMission = 'Our mission is to build an effective and interactive humanist society in Zimbabwe.'
 
 const InfoSection = () => {
@@ -46,22 +46,18 @@ const InfoSection = () => {
 
 
 
-<SimpleGrid justifyContent={'center'} my={10} mx={2} columns={{base: 1, sm: 2, lg: 4}} rowGap={4} columnGap={{sm: 4}} alignItems={'center'}>
+<SimpleGrid justifyContent={'center'} my={10} mx={12} columns={{base: 1, sm: 2, lg: 4}} rowGap={4} columnGap={{sm: 4}} alignItems={'center'}>
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
-            <Card w={{base: 300, sm: 250, md: 300}} h={300} bgColor={'black'}>
+            <Card w={{base: 300, sm: 250, md: 300}} h={300}>
               <CardHeader>
                 <Heading as={'h3'} size={'md'}>{item.title}</Heading>
               </CardHeader>
-              <CardBody h={260}>
-                <Image
-                alt = {'image for ' + `${item.title}` + ' card'}
-                src={item.image}
-              height={200}
-              width={300}>
-                </Image>
+              <CardBody mt={-8}>
+                <Box h={150} bgImage={item.image} bgPosition={'center'} bgSize={'cover'}></Box>
+          
               </CardBody>
-              <CardFooter fontSize={'sm'} mt={-8} textColor={'white'}>
+              <CardFooter fontSize={'sm'} mt={-8} textColor={'gray.600'}>
                 {item.info}
               </CardFooter>
             </Card>

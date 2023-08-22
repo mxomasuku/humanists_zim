@@ -16,7 +16,8 @@ const Form = () => {
               alt="logo"
               src={'/Logos/MainIcon.svg'}
               width={75}
-              height={75}/>
+              height={75}
+              className={'mx-auto block'}/>
                 </div>
              
               </Box>

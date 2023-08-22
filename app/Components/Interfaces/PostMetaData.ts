@@ -1,6 +1,6 @@
 export interface PostMetaData{
 title: string,
-date: number,
+date: string,
 excerpt: string,
 slug: string,
 coverImage: string,

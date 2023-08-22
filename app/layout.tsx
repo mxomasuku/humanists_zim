@@ -4,7 +4,9 @@ import { Providers } from "./providers";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { ChakraProvider, Flex, extendTheme } from '@chakra-ui/react';
-
+// import GoogleAnalytics from './Components/GoogleAnalytics';
+// import CookieBanner from './Components/CookieBanner';
+import { Suspense } from 'react';
 
 // export const metadata = {
 //   title: 'Humanists Zimbabwe',
@@ -32,15 +34,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* <GoogleAnalytics GA_MEASUREMENT_ID='G-G5EBGL9D5X'/> */}
       <body className='body'>
         
+      {/* <CookieBanner/> */}
         <Providers>
           <ChakraProvider theme={theme}>
           <Flex minHeight={'100vh'} flexDir={'column'}>
         
         <Header/>
+        {/* <Suspense fallback={<>loading</>}> */}
           {children}
-       
+       {/* </Suspense> */}
        <Footer/>
         </Flex>
           </ChakraProvider>

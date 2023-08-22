@@ -3,7 +3,8 @@ import { Heading } from '@chakra-ui/react'
 const about = () => {
   return (
     <>
-    <Heading>YOUNG HUMANISTS ZIMBABWE</Heading>
+    <Heading></Heading>
+    
     </>
   )
 }
