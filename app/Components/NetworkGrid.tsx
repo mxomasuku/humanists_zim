@@ -1,5 +1,5 @@
 'use client'
-import {Box, SimpleGrid, Text, Heading, Flex, Divider} from '@chakra-ui/react'
+import {Box, SimpleGrid, Text, Heading, Flex} from '@chakra-ui/react'
 import Image from 'next/image'
 
 
@@ -16,14 +16,14 @@ const communities = [
       'description': 'The world’s largest and most active atheist forum',
       'service': '2.8 million users',
       'url': 'https://www.reddit.com/r/atheism/',
-      'image': '/StaticResources/reddit-logo.png'
+      'image': '/StaticResources/atheistRepublic.jpg'
     },
     {
       'name': 'Agnostic, Atheist and Non-Religious',
       'description': 'Non Religious people on Facebook',
       'service': '81k members',
       'url':  'https://www.facebook.com/groups/OAANR/',
-      'image': '/StaticResources/facebook-logo.png'
+      'image': '/StaticResources/atheistRepublic.jpg'
     },
     {
       'name': 'Forum : Atheist Republic',
@@ -45,14 +45,14 @@ const communities = [
     },
     {
       'title': 'Humanistically Speaking',
-      'image':'/StaticResources/humanistspeaking.webp',
+      'image':'/StaticResources/freethinker.png',
       'description': 'Online Magazine Speaking out for non-religious people',
       'scope': 'Based in the UK, global influence',
       'url': '//www.humanisticallyspeaking.org/'
     },
     {
       'title': 'Freethinker',
-      'image': '/StaticResources/freethinker.png',
+      'image': '/StaticResources/humanistspeaking.webp',
       'description': 'An exciting platform for the curious. Est 1881',
       'scope': 'Featuring authors from all over the world',
       'url': 'https://freethinker.co.uk/'
@@ -101,56 +101,13 @@ const communities = [
     
   ]
 
-  const localCommunities = [
-    {
-      'name': 'Zimbabwean Atheists',
-      'link' : 'https://www.facebook.com/TheZimbabweanAtheistAgnosticismandFreethikers',
-      'logo' : '/StaticResources/zimAtheists.jpg',
-      'description': 'Zim Atheists Facebook Page. Established 2015'
-    },
-    {
-      'name': 'Humanists & Atheists (WhatsApp Group)',
-      'link' : 'https://chat.whatsapp.com/HDhSBgNlHef087QwskqBxk?fbclid=IwAR3tHipL0YzsRDPZQjz3auDq1XtZ04VnTvHbj4F67JvRI--SUNhpxSFB2MY',
-      'logo' : '/StaticResources/h-and-a.jpg',
-      'description': 'Social Group for Freethinkers: Humanists and Atheists'
-    },
-    {
-      'name': 'Talk2Humanists@5',
-      'link': 'https://chat.whatsapp.com/IwtXulcrVjsFzXQzQJL5w9',
-      'logo': '/StaticResources/hsz.jpg',
-      'description': 'Contains a diverse membership. It was created to facilitate discussions between humanists and anyone interested in what they do.'
-    }
-
-  ]
-
 const NetworkGrid = () => {
   return (
-    <SimpleGrid columns={{ base: 1, md:2, lg:4}} gridGap={4} height={{lg: 680}} mb={12} >
-    <Box bgColor={'gray.400'} p={4}>
+    <SimpleGrid columns={{ base: 1, md:2, lg:4}} gridGap={4} height={{lg: 650}} mb={12} >
+    <Box bgColor={'gray.400'} py={4}>
       <Heading as={'h3'} size={'lg'} borderBottom={2} borderBottomColor={'brand.900'}>Local Communities</Heading>
-    {localCommunities.map((localCommunity)=>{
-      return(
-        <a href={localCommunity.link}
-    
-        target='blank'>
-          <Box>
-          <Heading as={'h4'} size={'sm'}>{localCommunity.name}</Heading>
-          <Flex>
-            <Image 
-            alt={'logo for' + `${localCommunity.name}`}
-            src={localCommunity.logo}
-            width={75}
-            height={75}/>
-            <Flex flexDir={'column'} px={4}>
-              <Text fontSize={'xs'}>{localCommunity.description}</Text>
-            </Flex>
-          </Flex>
-          <Divider orientation={'horizontal'} size={'xl'} mb={2}/>
-          </Box>
-         
-        </a>
-      )
-    })}
+    - WhatsApp
+    - Zimbabwean Atheists and Agnosticism
     </Box>
     
     <Box p={4}>
@@ -158,9 +115,7 @@ const NetworkGrid = () => {
       {communities.map((community)=>{
       return(
     <a href={community.url}
-    
     target='blank'>
-      <Box>
       <Heading as={'h4'} size={'sm'}>{community.name}</Heading>
       <Flex>
         <Image 
@@ -174,9 +129,6 @@ const NetworkGrid = () => {
         
         </Flex>
       </Flex>
-      <Divider orientation={'horizontal'} size={'xl'} mb={2}/>
-      </Box>
-     
     </a>
       )
     })}
@@ -189,9 +141,8 @@ const NetworkGrid = () => {
       return(
     <a href={magazine.url}
     target='blank'>
-      <Box>
       <Heading as={'h4'} size={'sm'}>{magazine.title} </Heading>
-      <Flex flexDir={'column'} borderBottom={2} borderBottomColor={'black'}>
+      <Flex flexDir={'column'}>
         <Image 
         alt={'logo for' + `${magazine.title}`}
         src={magazine.image}
@@ -202,9 +153,6 @@ const NetworkGrid = () => {
           <Text fontSize={'xs'} pb={4}>{magazine.scope}</Text>
         </Flex>
       </Flex>
-      <Divider orientation={'horizontal'} size={'xl'} mb={2}/>
-      </Box>
-     
     </a>
       )
     })}
@@ -242,7 +190,7 @@ const NetworkGrid = () => {
               </Box>
             </Flex>
             </Box>
-            <Divider orientation={'horizontal'} size={'2xl'} mb={2} />
+         
           </a>
     
         )

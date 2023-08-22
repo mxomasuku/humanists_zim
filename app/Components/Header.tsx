@@ -1,9 +1,9 @@
 'use client'
-import {Box, Flex, Heading, List, ListItem, HStack, IconButton} from '@chakra-ui/react'
+import {Box, Flex, Heading, List, ListItem, HStack, IconButton, Button, Image} from '@chakra-ui/react'
 import Link from 'next/link'
 import {HamburgerIcon, CloseIcon} from '@chakra-ui/icons'
 import { useState } from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Header = () => {
 const [display, setDisplay] = useState('none')
@@ -37,10 +37,8 @@ id: 5}
     <Box px={8}>
         <Heading as={'h4'} >
           <Image 
-          alt='logo'
-          height={75}
           width={150}
-          src={'/Logos/LogoName@2x.png'}/>
+          src={'/Logos/logoName@2x.png'}/>
         </Heading>
     </Box>
     <Box>

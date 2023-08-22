@@ -68,9 +68,7 @@ const Footer = () => {
 alt='organisation logo'
 src={'/Logos/MainIcon.svg'}
 width={50}
-height={50}
-className={'mx-auto block'}
-/>
+height={50}/>
     
 </Box>
 

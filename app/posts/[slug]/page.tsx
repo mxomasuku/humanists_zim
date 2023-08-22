@@ -5,7 +5,6 @@ import getPostMetaData from '@/app/Components/Interfaces/getPostMetaData'
 import PostFooter from '@/app/Components/PostFooter'
 import Image from 'next/image'
 
-
 const getPostContent = (slug : string) => {
   const folder = "posts/"
   const file = `${folder}${slug}.md`
@@ -25,7 +24,7 @@ const Post = (props: any) => {
   const post = getPostContent(slug)
   return (
     <div>
-        <h1 className=' text-2xl px-2 lg:text-4xl font-bold mt-8 text-center py-8 lg:px-32'>{post.data.title}</h1>
+     <h1 className='text-4xl font-bold mt-8 text-center py-8 px-32'>{post.data.title}</h1>
      <div className='align-center '>
      <Image
      alt={'decorative image'}
@@ -36,13 +35,10 @@ const Post = (props: any) => {
     />
      </div>
    
-     <article className='prose lg:prose-lg lg:mx-auto mb-24 mx-4'>
+     <article className='prose lg:prose-lg mx-auto mb-24'>
      <Markdown>{post.content}</Markdown>
      </article>
      <PostFooter/>
-
-
-    
     </div>
   )
 }
