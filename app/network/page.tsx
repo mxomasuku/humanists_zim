@@ -22,7 +22,7 @@ const Network = () => {
    
 <Box py={8}>
 <Image
-src={'/poster.png'}
+src={'/StaticResources/hero.png'}
 />
 </Box>
 

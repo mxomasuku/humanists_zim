@@ -16,7 +16,7 @@ export default function Home() {
      <ReadMore />
 
 
-     <PostsLayout/>
+     {/* <PostsLayout/> */}
 <h1 className='text-6xl text-white'>
 
 </h1>

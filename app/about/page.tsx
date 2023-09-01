@@ -23,7 +23,7 @@ const AboutPage = () => {
       </Box>
       <Box mb={16}>
         <Heading textDecoration={'underline'} textDecorationColor={'brand.900'} pb={4}>What we do</Heading>
-        <Text> Our work so far is</Text>
+        <Text> Our work so far is mainly focused on advocacy and awareness building of humanism as an alternative way of life to religion. We will be sharing our projects as we proceed.</Text>
       </Box>
       <Box>
         <Link href={'/about/yhz'}>
@@ -38,7 +38,7 @@ const AboutPage = () => {
           </Container>
           </Link>
       </Box>
-      <Box>
+      {/* <Box>
         <Heading textDecoration={'underline'} textDecorationColor={'brand.900'}>Our Vision For The Future</Heading>
      
        <List>
@@ -46,16 +46,8 @@ const AboutPage = () => {
           <ListItem>2. Tauya Chinama: Raising Democratic Freethinkers</ListItem>
           <ListItem>3. Shingai Ndoro: Just Imagine - A Zimbabwe Free of Religion</ListItem>
         </List>
-      </Box>
-      {/* <Box className={'section'}>
-          < >Prominent Humanist Figures In Zimbabwe</>
-          <Text> 1. Tauya Chinama</Text>
-          <Text> 2. Linda Tiley</Text>
-          <Text> 3. Takudzwa Mazwienduna</Text>
-          <Text> 4. Mxolisi Masuku</Text>
-          <Text> 5. Shingai Ndoro
-          </Text>
       </Box> */}
+
       <Box>
         <Heading textDecoration={'underline'} textDecorationColor={'brand.900'}> Frequently Asked Questions About Atheism and Humanism</Heading>
           <Box >

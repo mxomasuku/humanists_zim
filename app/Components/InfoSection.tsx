@@ -12,11 +12,18 @@ const sectionData = [
 "image": "/StaticResources/yhz.png",
 "info": "Our section dedicated to Youths and the future of Humanism"
 },
+// {"id": 1,
+// "title" : "Blog",
+// 'url': "/posts",
+// "image": "/StaticResources/blog.png",
+// "info": "Local and international articles about Humanism"
+// },
+
 {"id": 1,
-"title" : "Blog",
-'url': "/posts",
-"image": "/StaticResources/blog.png",
-"info": "Local and international articles about Humanism"
+"title" : "Our Podcast",
+'url': "/podcast",
+"image": "/StaticResources/HumanistHubris.png",
+"info": "Our Podcast"
 },
 {"id": 2,
 'url': "/support",
@@ -46,7 +53,7 @@ const InfoSection = () => {
 
 
 
-<SimpleGrid justifyContent={'center'} my={10} mx={12} columns={{base: 1, sm: 2, lg: 4}} rowGap={4} columnGap={{sm: 4}} alignItems={'center'}>
+<SimpleGrid justifyContent={'center'} my={10} mx={16} columns={{base: 1, sm: 2, lg: 4}} rowGap={4} columnGap={{sm: 4}} alignItems={'center'}>
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
             <Card w={{base: 300, sm: 250, md: 300}} h={300}>

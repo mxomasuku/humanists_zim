@@ -6,7 +6,7 @@ excerpt: A commentary piece on the relationship between ethics and religion from
 featured: true
 coverImage: "/Uploads/ethics-2991600_1920.jpg"
 ogImage:
-  url: ''
+  url: '/Uploads/ethics-2991600_1920.jpg'
 date: 2021-09-22T22:00:00Z
 url: ''
 author:
