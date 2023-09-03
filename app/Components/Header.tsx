@@ -35,13 +35,16 @@ id: 5}
     <>
     <Flex justifyContent={'space-between'} textColor={'white'} bgColor={'black'}>
     <Box px={8}>
-        <Heading as={'h4'} >
+      <Link href={'/'}>
+      <Heading as={'h4'} >
           <Image 
           alt='logo'
           height={75}
           width={150}
           src={'/Logos/LogoName@2x.png'}/>
         </Heading>
+      </Link>
+      
     </Box>
     <Box>
       <List>

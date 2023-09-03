@@ -31,7 +31,7 @@ const AboutPage = () => {
           <Container>
           <Image
           alt='Young Humanists Zim wallpaper'
-          src={'/StaticResources/YhzName.png'}
+          src={'/StaticResources/yhz.png'}
           width={700}
           height={400}
           />

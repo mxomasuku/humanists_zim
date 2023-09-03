@@ -56,7 +56,7 @@ const page = () => {
          
 
 <Box key={podstore.Store}><a href={podstore.link} target="blank">
-<Box bgImage={podstore.icon} bgSize={'contain'} bgPosition={'center'} height={75} width={75}></Box>
+<Box bgImage={podstore.icon} bgSize={'cover'} bgPosition={'center'} height={{base: '25', md: '50', lg:'65'}} width={{base: 25, md: 50, lg:65}}></Box>
   {/* <Text>{podstore.Store}</Text> */}
   </a></Box>
          

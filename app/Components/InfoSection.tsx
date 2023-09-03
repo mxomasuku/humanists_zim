@@ -39,7 +39,7 @@ const sectionData = [
 
 }
 ]
-const aboutUs = "We are a secular and humanistic community. For us, humanism is a human way of life which values welfare of the ecosystem in totality, independence, sovereign, justice, equality and ethical living. As such we oppose dogmatism, bigotry, hate speech, discrimination, injustice and all forms of oppression. Our aim is to bring together all non-religious people in building a freethinking Zimbabwe guided by science and empathy. We believe our society is much better when religion does not unfairly dominate discourse about public policy. As such we promote and support any group of people suffering from effects of religious bigotry."
+const aboutUs = "We are a secular and humanistic community. For us, humanism is a human way of life, based on science, which values welfare of the ecosystem in totality, independence, sovereign, justice, equality and ethical living. As such we oppose dogmatism, bigotry, hate speech, discrimination, injustice and all forms of oppression. Our aim is to bring together all non-religious people in building a freethinking Zimbabwe guided by science and empathy. We believe our society is much better when religion does not unfairly dominate discourse about public policy. As such we promote and support any group of people suffering from effects of religious bigotry."
 const ourMission = 'Our mission is to build an effective and interactive humanist society in Zimbabwe.'
 
 const InfoSection = () => {
@@ -53,10 +53,10 @@ const InfoSection = () => {
 
 
 
-<SimpleGrid justifyContent={'center'} my={10} mx={16} columns={{base: 1, sm: 2, lg: 4}} rowGap={4} columnGap={{sm: 4}} alignItems={'center'}>
+<SimpleGrid justifyContent={'center'} my={10}  columns={{base: 1, sm: 2, lg: 4}}  rowGap={4} columnGap={{sm: 4}}>
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
-            <Card w={{base: 300, sm: 250, md: 300}} h={300}>
+            <Card w={{base: 300, sm: 300, md: 300}} h={300} className="mx-auto">
               <CardHeader>
                 <Heading as={'h3'} size={'md'}>{item.title}</Heading>
               </CardHeader>
