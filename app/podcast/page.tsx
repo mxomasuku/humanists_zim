@@ -3,36 +3,38 @@ import { Box, Heading, Text, HStack, Flex } from "@chakra-ui/react"
 import Image from "next/image"
 
 const podcastStores = [
-  {'Store' :  'iHeartRadio',
-  'link': 'https://www.iheart.com/podcast/338-the-humanist-hubris-podcas-121735539/?utm_medium=email&utm_campaign=PB-sendgrid-emails&utm_source=sendgrid',
-  'icon': '/Podcast/iheartradio.png'
-  },
-  {'Store' :  'Amazon Music',
-  'link': 'https://music.amazon.com/podcasts/23aa24b8-a178-4e34-acc2-87e80b55ca27',
-  'icon': '/Podcast/amazonmusic.png'
+  {'Store' :  'Google Podcasts',
+  'link': 'https://podcasts.google.com/search/Humanist%20Hubris',
+  'icon': '/Podcast/googlePodcasts.png'
   },
   {'Store' :  'Apple Podcasts',
   'link': 'https://podcasts.apple.com/us/podcast/the-humanist-hubris-podcast/id1704132813',
   'icon': '/Podcast/applePodcasts.png'
   },
-  {'Store' :  'Google Podcasts',
-  'link': 'https://podcasts.google.com/search/Humanist%20Hubris',
-  'icon': '/Podcast/googlePodcasts.png'
+  
+  // {'Store' :  'iHeartRadio',
+  // 'link': 'https://www.iheart.com/podcast/338-the-humanist-hubris-podcas-121735539/?utm_medium=email&utm_campaign=PB-sendgrid-emails&utm_source=sendgrid',
+  // 'icon': '/Podcast/iheartradio.png'
+  // },
+  {'Store' :  'Amazon Music',
+  'link': 'https://music.amazon.com/podcasts/23aa24b8-a178-4e34-acc2-87e80b55ca27',
+  'icon': '/Podcast/amazonmusic.png'
   },
-  {'Store' :  'Player FM',
-  'link': 'https://player.fm/series/3505272?utm_source=sendgrid&utm_medium=email&utm_campaign=PB-sendgrid-emails',
-  'icon': '/Podcast/playerFm.png'
-  },
-  {'Store' :  'Spotify',
-  'link': 'https://podcasters.spotify.com/pod/show/mxolisi-masuku/episodes/Discussion-Is-Zimbabwe-a-Christian-Nation-e28gppn',
-  'icon': '/Podcast/spotify.png'
-  },
-  {'Store' :  'Podchaser',
-  'link': 'https://www.podchaser.com/podcasts/the-humanist-hubris-podcast-5452766?utm_source=sendgrid&utm_medium=email&utm_campaign=PB-sendgrid-emails',
-  'icon': '/Podcast/podchaser.png'
-  },
+ 
+  // {'Store' :  'Player FM',
+  // 'link': 'https://player.fm/series/3505272?utm_source=sendgrid&utm_medium=email&utm_campaign=PB-sendgrid-emails',
+  // 'icon': '/Podcast/playerFm.png'
+  // },
+  // {'Store' :  'Spotify',
+  // 'link': 'https://podcasters.spotify.com/pod/show/mxolisi-masuku/episodes/Discussion-Is-Zimbabwe-a-Christian-Nation-e28gppn',
+  // 'icon': '/Podcast/spotify.png'
+  // },
+  // {'Store' :  'Podchaser',
+  // 'link': 'https://www.podchaser.com/podcasts/the-humanist-hubris-podcast-5452766?utm_source=sendgrid&utm_medium=email&utm_campaign=PB-sendgrid-emails',
+  // 'icon': '/Podcast/podchaser.png'
+  // },
   {'Store' :  'Tune IN',
-  'link': '1.	https://tunein.com/radio/The-Humanist-Hubris-Podcast-p3853561/',
+  'link': 'https://tunein.com/radio/The-Humanist-Hubris-Podcast-p3853561/',
   'icon': '/Podcast/tunein.png'
   }
 ]
@@ -41,7 +43,16 @@ const podcastStores = [
 
 const page = () => {
   return (
+
+  
     <div className='mx-auto my-16'>
+     
+<Box mb={4}>
+<Heading as={'h3'}>The Humanist Hubris Podcast </Heading>
+        <Text textAlign={'center'} className="text-xs">by Mxolisi B Masuku & Tauya Chinama</Text>
+
+</Box>
+<Text textAlign={'center'}>Click <a href="https://humanisthubris.podbean.com/" className="text-blue-900 font-bold">here</a> to visit the podcast homepage on PodBean</Text>
       <Image
       src={'/StaticResources/HumanistHubrisLogo.png'}
       width={'250'}
@@ -49,8 +60,12 @@ const page = () => {
       alt="mfmfjjfmfnfnnfnfnfnfn"
       className='mx-auto'
       />
+
+
 <Heading as={'h4'} size={'md'} className='mx-auto text-blue-600'>Click any of the links below to open your favourite store</Heading>
-<Flex justify={'space-between'} alignItems={'center'} mt={4} gap={4}>  
+
+
+<Flex justify={'space-between'} minWidth='max-content' alignItems={'center'} mt={4} gap={4}>
       {podcastStores.map((podstore) => {
         return(
          

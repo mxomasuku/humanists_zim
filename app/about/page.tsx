@@ -1,5 +1,5 @@
 'use client'
-import { Heading, Button, Box, Text, List, ListItem, Accordion, AccordionItem, AccordionPanel, AccordionIcon, AccordionButton, Container } from '@chakra-ui/react'
+import { Heading, Button, Box, Text, Divider, List, ListItem, Accordion, AccordionItem, AccordionPanel, AccordionIcon, AccordionButton, Container } from '@chakra-ui/react'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -21,9 +21,29 @@ const AboutPage = () => {
         <Heading textDecoration={'underline'} pb={4} textDecorationColor={'brand.900'}>Our Mission</Heading>
         <Text fontSize={'2xl'}>{ourMission}</Text>
       </Box>
-      <Box mb={16}>
+      <Box mb={16} >
         <Heading textDecoration={'underline'} textDecorationColor={'brand.900'} pb={4}>What we do</Heading>
-        <Text> Our work so far is mainly focused on advocacy and awareness building of humanism as an alternative way of life to religion. We will be sharing our projects as we proceed.</Text>
+
+        <Box textAlign={'start'}>
+        <Text fontWeight={'bold'}> In 2023, Humanists Zimbabwe, formerly PICH received a grant from Humanists International to launch a media hub called the Project for Integrating Cultures in Humanism (PICH). </Text>
+      <Text>The goal of PICH was to provide a platform for secular humanists and non-religious people to create content that spreads awareness of humanism and develops humanist thought from native knowledge systems.</Text>
+<br/>
+      <Text fontWeight={'semibold'}>Humanists Zimbabwe adopted a common system of objectives used by the Global Humanist Organization Network:</Text>
+      <List>
+        <ListItem>•	Create awareness</ListItem>
+        <ListItem>•	Fight for Acceptance</ListItem>
+        <ListItem>•	Campaign for secularism</ListItem>
+        <ListItem>•	Promote a life stance</ListItem>
+      </List>
+      <br/>
+      <Text>
+      With the grant, Humanists Zimbabwe is building an open-door studio to find as many interested, talented, and willing humanists and non-religious people as possible to help them get their message out there into the world: "Let's all be humanists. This is our one life and we are better off if we live it freely to the max." So far, we have one running podcast show (Humanist Hubris), and many more to come.
+      </Text>
+
+      <Text>In the future, Humanists Zimbabwe will integrate all these ideas into one voice to create a portfolio of varied products. They aim to be a well-represented, diversified organization of humanists working together as one to make Zimbabwe and the world a better place.</Text>
+        </Box>
+
+     
       </Box>
       <Box>
         <Link href={'/about/yhz'}>

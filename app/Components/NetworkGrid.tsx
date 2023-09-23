@@ -115,7 +115,7 @@ const communities = [
       'description': 'Social Group for Freethinkers: Humanists and Atheists'
     },
     {
-      'name': 'Talk2Humanists@5',
+      'name': 'Talk2Humanists@5 (WhatsApp Group',
       'link': 'https://chat.whatsapp.com/IwtXulcrVjsFzXQzQJL5w9',
       'logo': '/StaticResources/hsz.jpg',
       'description': 'Contains a diverse membership. It was created to facilitate discussions between humanists and anyone interested in what they do.'
