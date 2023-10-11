@@ -1,5 +1,4 @@
 import fs from "fs"
-import Link from "next/link"
 import matter from "gray-matter"
 import { PostMetaData } from "./PostMetaData"
 

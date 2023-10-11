@@ -1,15 +1,11 @@
-'use client'
-import { Box, Heading } from "@chakra-ui/react"
-import Image from "next/image"
-
 
 const Contact = () => {
   return (
-    <Box p={{base: 4, md: 8, lg: 16 }} textAlign={'center'} >
+    <div className="p-4 md:p-8 lg:p-16 text-center">
 
-    <Heading as={'h4'}>Email Us: hello@humanists.co.zw</Heading>
+    <h4 className="text-2xl font-bold">Email Us: hello@humanists.co.zw</h4>
     <p><a href="mailto:hello@humanists.co.zw">Send email</a></p>
-    </Box>
+    </div>
   )
 }
 

@@ -1,5 +1,3 @@
-'use client'
-import { Box, Heading, Text, HStack, Flex } from "@chakra-ui/react"
 import Image from "next/image"
 
 const podcastStores = [
@@ -47,12 +45,12 @@ const page = () => {
   
     <div className='mx-auto my-16'>
      
-<Box mb={4}>
-<Heading as={'h3'}>The Humanist Hubris Podcast </Heading>
-        <Text textAlign={'center'} className="text-xs">by Mxolisi B Masuku & Tauya Chinama</Text>
+<div className="mb-4">
+<h3 className="text-3xl">The Humanist Hubris Podcast </h3>
+        <p className="text-center text-xs">by Mxolisi B Masuku & Tauya Chinama</p>
 
-</Box>
-<Text textAlign={'center'}>Click <a href="https://humanisthubris.podbean.com/" className="text-blue-900 font-bold">here</a> to visit the podcast homepage on PodBean</Text>
+</div>
+<p className='text-center'>Click <a href="https://humanisthubris.podbean.com/" className="text-blue-900 text-center font-bold">here</a> to visit the podcast homepage on PodBean</p>
       <Image
       src={'/StaticResources/HumanistHubrisLogo.png'}
       width={'250'}
@@ -62,29 +60,28 @@ const page = () => {
       />
 
 
-<Heading as={'h4'} size={'md'} className='mx-auto text-blue-600'>Click any of the links below to open your favourite store</Heading>
+<h4 className='mx-auto text-blue-600 text-md font-bold'>Click any of the links below to open your favourite store</h4>
 
 
-<Flex justify={'space-between'} minWidth='max-content' alignItems={'center'} mt={4} gap={4}>
+<div className="flex justify-between mt-4 align-center">
       {podcastStores.map((podstore) => {
         return(
-         
+<div key={podstore.Store}><a href={podstore.link} target="blank">
+<div className="h-8 md:h-12 lg:h-16 w-8 md:w-12 lg:w-16"> 
+  <img src={podstore.icon} alt={'podcast store icon'}/>
+</div>
+ 
+  </a></div>
 
-<Box key={podstore.Store}><a href={podstore.link} target="blank">
-<Box bgImage={podstore.icon} bgSize={'cover'} bgPosition={'center'} height={{base: '25', md: '50', lg:'65'}} width={{base: 25, md: 50, lg:65}}></Box>
-  {/* <Text>{podstore.Store}</Text> */}
-  </a></Box>
-         
-      
         )
       })}
 
-</Flex>
+</div>
 
 
 
 
-{/* 
+{/*
 
        <iframe
   title="The Humanist Hubris Podcast"
@@ -94,7 +91,7 @@ const page = () => {
   loading="lazy"
 /> */}
 
-{/* <iframe src="https://tunein.com/embed/player/p3853561/" 
+{/* <iframe src="https://tunein.com/embed/player/p3853561/"
 // style={{"width" :"100%"} {height:100px;" scrolling="no" frameborder="no"}}
 className="w-640, h-100, scrolling-no">
 

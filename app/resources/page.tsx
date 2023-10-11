@@ -1,6 +1,4 @@
-'use client'
 
-import { Heading, Text, Box, Container, Flex, OrderedList, ListItem, ListIcon } from "@chakra-ui/react"
 import Image from "next/image"
 
 const webPages = [
@@ -70,124 +68,104 @@ const essays = [
 
 const Resources = () => {
   return (
-    <Box>
-       <Text color={'brand.900'} textAlign={'center'} fontSize={'md'} fontWeight={'semibold'}>This page contains links to books and resources, for some light reading for those who are curious about the conversations which humanists have about humanity</Text>
-      <Box my={8}>
-      <Heading as={'h3'} size={'xl'} mb={4} textAlign={'center'}>Explore the Humanist Lifestance from reliable Sources</Heading>
+    <>
+       <p className='text-pink-600 text-center text-sm md:text-md lg:font-bold'>This page contains links to books and resources, for some light reading for those who are curious about the conversations which humanists have about humanity</p>
+      <div className="my-8">
+      <h1  className='text-3xl font-bold mb-4 text-center'>Explore Humanism from Reliable Sources</h1>
      <Image
      src={'/StaticResources/LearnMore.jpg'}
-     width={1000}
-     height={100}
+     width={800}
+     height={80}
      alt="decorative"
-     className='mx-auto block' 
+     className='mx-auto block'
      />
-      </Box>
-      <Container mt={8}>
-    
-   
-     
-    
+      </div>
+      <div className="container mt-8 mx-4 lg:mx-96">
 
-<Box>
-  <Box mb={8}>
-  <Heading as={'h4'} textDecoration={'underline'} mb={2} textAlign={'center'} textDecorationColor={'brand.900'}>Web Pages</Heading>
-<OrderedList>
+<div>
+  <div className="mb-8 w-96">
+  <h4 className='underline font-bold mb-2 text-2xl underline-pink-600'>Web Pages</h4>
+
+
+<ol>
 
 {webPages.map((webPage) =>{
   return(
-    <ListItem key={webPage.title}  mb={4}>
+    <li key={webPage.title}  className="mb-4">
       <a href={webPage.url} className="text-blue-900 text-xl">
         {webPage.title}
       </a>
-      <Text>Source: {webPage.source}</Text>
+      <p>Source: {webPage.source}</p>
 
 
-      </ListItem>
+      </li>
   )
 })}
-</OrderedList>
+</ol>
 
-  </Box>
-
-
+  </div>
 
 
-<Box mb={8}>
-    <Heading textDecoration={'underline'} mb={2} textAlign={'center'} textDecorationColor={'brand.900'}>Academic Papers</Heading>
-<OrderedList>
+
+
+<div className="mb-8 w-96">
+    <h4 className='underline mb-2 text-2xl font-bold text-underline-pink-600'>Academic Papers</h4>
+<ol>
 {academicPapers.map((academicPaper)=>{
   return(
-    <ListItem mb={4} key={academicPaper.title}>
+    <li className="mb-4" key={academicPaper.title}>
       <a href={academicPaper.url} className="text-blue-900 text-xl">{academicPaper.title}</a>
-      <Text>Author: {academicPaper.author}</Text>
-    </ListItem>
-
+      <p>Author: {academicPaper.author}</p>
+    </li>
   )
 })}
-</OrderedList>
-
-
- <Text color={'brand.900'} fontSize={'xs'}>Click below to help us locate this paper</Text>
+</ol>
+ <p className='text-pink-600 text-xs'>Click below to help us locate this paper</p>
   <a href="https://worldcat.org/title/869755918" className="text-blue-900 text-xl">Hunhuism or ubuntuism : a Zimbabwe indigenous political philosophy </a>
-  <Text>by Thompson Samkange (1980)</Text>
-
-
-</Box>
- 
-<Box mb={8}>
-<Heading textDecoration={'underline'} mb={2} textAlign={'center'} textDecorationColor={'brand.900'}>Essays</Heading>
-<OrderedList>
+  <p>by Thompson Samkange (1980)</p>
+</div>
+<div className='mb-8'>
+<h4 className='underline font-bold mb-2 text-2xl font-bold text-underline-pink-600'>Essays</h4>
+<ol>
 {essays.map((essay)=>{
 return(
-  <ListItem mb={4} key={essay.title}>
-    
+  <li className="mb-4" key={essay.title}>
     <a href={essay.url}  className="block text-blue-900 text-xl">{essay.title} </a>
-  
-   
-  </ListItem>
-  
+  </li>
 )
 })}
 
-</OrderedList>
-</Box>
- 
-
-
-
-<Box mb={16}>
-<Heading textDecoration={'underline'} textAlign={'center'} textDecorationColor={'brand.900'} mb={2}>Books</Heading>
-<OrderedList>
+</ol>
+</div>
+<div className="mb-16">
+<h4 className='underline text-2xl mb-2 font-bold text-underline-pink-600'>Books</h4>
+<ol >
 {books.map((book) =>{
   return(
-    <ListItem key={book.title}>
-        <Flex  mb={4}>
-      <Box w={75} h={75}  mr={8} bgImage={book.image} backgroundPosition={'center'} backgroundSize={'contain'}></Box>
-
-      <Box>
+    <li key={book.title} >
+        <div className="flex mb-4">
+      <div className="w-75 h-75 mr-8">
+        <Image src={book.image}
+        alt={`'cover of ' + ${book.title}`}
+        width='75'
+        height='75'
+        className=""/>
+      </div>
+      <div>
       <a href={book.url} className="block text-blue-900  text-md lg:text-xl">
       {book.title}
       </a>
-      <Text> Author: {book.author}</Text>
-      </Box>
- 
-
-    </Flex>
-    </ListItem>
-  
+      <p> Author: {book.author}</p>
+      </div>
+    </div>
+    </li>
   )
 })}
-</OrderedList>
-
-</Box>
-
-
-
-</Box>
-   
-    </Container>
-    </Box>
- 
+</ol>
+</div>
+</div>
+    </div>
+    </>
   )
 }
 

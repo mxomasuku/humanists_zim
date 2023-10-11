@@ -1,5 +1,3 @@
-'use client'
-import {Box, SimpleGrid, Text, Heading, Flex, Divider} from '@chakra-ui/react'
 import Image from 'next/image'
 
 
@@ -125,109 +123,108 @@ const communities = [
 
 const NetworkGrid = () => {
   return (
-    <SimpleGrid columns={{ base: 1, md:2, lg:4}} gridGap={4} height={{lg: 680}} mb={12} >
-    <Box bgColor={'gray.400'} p={4}>
-      <Heading as={'h3'} size={'lg'} borderBottom={2} borderBottomColor={'brand.900'}>Local Communities</Heading>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-12 gap-4 h-124'>
+    <div className='bg-gray-400 p-4'>
+      <h2 className='text-3xl border-b font-bold text-pink-600 border-gray-pink.600 mb-4'>Local Communities</h2>
     {localCommunities.map((localCommunity)=>{
       return(
         <a href={localCommunity.link}
         key={localCommunity.name}
     
         target='blank'>
-          <Box>
-          <Heading as={'h4'} size={'sm'}>{localCommunity.name}</Heading>
-          <Flex>
+          <div className=' mb-4 pb-4 border-b border-white'>
+          <h4 className='font-bold'>{localCommunity.name}</h4>
+          <div className='flex'>
             <Image 
             alt={'logo for' + `${localCommunity.name}`}
             src={localCommunity.logo}
             width={75}
             height={75}/>
-            <Flex flexDir={'column'} px={4}>
-              <Text fontSize={'xs'}>{localCommunity.description}</Text>
-            </Flex>
-          </Flex>
-          <Divider orientation={'horizontal'} size={'xl'} mb={2}/>
-          </Box>
+            <div className='flex flex-col px-4'>
+              <p className='text-xs' >{localCommunity.description}</p>
+            </div>
+          </div>
+        
+          </div>
          
         </a>
       )
     })}
-    </Box>
+    </div>
     
-    <Box p={4}>
-      <Heading as={'h3'} size={'lg'}>International Communities</Heading>
+    <div className='p-4'>
+    
+      <h2 className='text-3xl border-b font-bold border-gray-pink.600 mb-4'>International Communities</h2>
       {communities.map((community)=>{
       return(
     <a href={community.url}
     key={community.name}
     
     target='blank'>
-      <Box>
-      <Heading as={'h4'} size={'sm'}>{community.name}</Heading>
-      <Flex>
+      <div className=' mb-4 pb-4 border-b border-gray-600'>
+      <h4 className=' font-bold'>{community.name}</h4>
+      <div className='flex'>
         <Image
         alt={'logo for' + `${community.name}`}
         src={community.image}
         width={75}
         height={75}/>
-        <Flex flexDir={'column'} px={4}>
-          <Text fontSize={'xs'}>{community.description}</Text>
-          <Text fontSize={'xs'}>{community.service}</Text>
+        <div className='px-4 flex flex-col'>
+          <p className='text-xs'>{community.description}</p>
+          <p className='text-xs'>{community.service}</p>
         
-        </Flex>
-      </Flex>
-      <Divider orientation={'horizontal'} size={'xl'} mb={2}/>
-      </Box>
+        </div>
+      </div>
+  
+      </div>
      
     </a>
       )
     })}
     
-    </Box>
+    </div>
     
-    <Box bgColor={'brand.900'} textColor={'black'} p={4}>
-      <Heading as={'h3'} size={'lg'}>Magazines and Blogs</Heading>
+    <div className='bg-pink-600 text-black p-4'>
+    <h2 className='text-3xl border-b font-bold border-gray-pink.600 mb-4'>Magazines and Blogs</h2>
       {magazines.map((magazine)=>{
       return(
     <a href={magazine.url}
     key={magazine.title}
     target='blank'>
-      <Box>
-      <Heading as={'h4'} size={'sm'}>{magazine.title} </Heading>
-      <Flex flexDir={'column'} borderBottom={2} borderBottomColor={'black'}>
+      <div>
+      <h4 className='font-bold'>{magazine.title} </h4>
+      <div className='flex flex-col border-b border-black'>
         <Image 
         alt={'logo for' + `${magazine.title}`}
         src={magazine.image}
         width={300}
         height={100}/>
-        <Flex flexDir={'column'} px={4}>
-        <Text fontSize={'xs'}>{magazine.description}</Text>
-          <Text fontSize={'xs'} pb={4}>{magazine.scope}</Text>
-        </Flex>
-      </Flex>
-      <Divider orientation={'horizontal'} size={'xl'} mb={2}/>
-      </Box>
+        <div className='flex flex-col px-4'>
+        <p className='text-xs'>{magazine.description}</p>
+          <p className='text-xs pb-4'>{magazine.scope}</p>
+        </div>
+      </div>
+      </div>
      
     </a>
       )
     })}
-    </Box>
+    </div>
     
     
-    <Box py={4}>
-      <Heading as={'h3'} size={'lg'}>Podcasts and YouTube</Heading>
+    <div className='py-4'>
+    <h2 className='text-3xl border-b font-bold border-gray-pink.600 mb-2'>Podcasts and YouTube</h2>
   
       {podcasts.map((podcast) => {
         return(
           <a href={podcast.url}
           key={podcast.title}
           target='blank'>
-            <Box my={4}>
-            <Heading as={'h4'} size={'sm'}>{podcast.title}</Heading>
-            <Flex>
-              <Box
-              borderRadius={0}
-              overflow={'hidden'}>
+            <div className='py-2'>
+            <h4 className='font-bold'>{podcast.title}</h4>
+            <div className='flex'>
+              <div
+              className='overflow-hidden'>
               
               <Image 
               alt={'logo for' + `${podcast.title}`}
@@ -237,23 +234,23 @@ const NetworkGrid = () => {
               
               
       />
-              </Box>
+              </div>
              
-              <Box width={300} px={4}>
-                <Text fontSize={'xs'}>{podcast.description}</Text>
+              <div className='px-4 w-48'>
+                <p className='text-xs'>{podcast.description}</p>
                
               
-              </Box>
-            </Flex>
-            </Box>
-            <Divider orientation={'horizontal'} size={'2xl'} mb={2} />
+              </div>
+            </div>
+            </div>
+        
           </a>
     
         )
       })}
-    </Box>
+    </div>
     
-    </SimpleGrid>
+    </div>
   )
 }
 

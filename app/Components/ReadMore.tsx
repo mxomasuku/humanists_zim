@@ -1,7 +1,4 @@
-'use client'
-import { Flex, Heading, IconButton, Box} from "@chakra-ui/react"
 import Link from "next/link"
-import Form from "./Form"
 import { FaBook, FaPeopleArrows, FaQuestion } from "react-icons/fa"
 
 
@@ -26,34 +23,32 @@ const items = [{
 
 const ReadMore = () => {
   return (
-    <>
-  
-<Heading as={"h3"} size={"lg"} textAlign={'center'}>These might interest you</Heading>
-  <Box mb={8}>
-  <Flex justify={'space-around'} flexWrap={'wrap'} rowGap={4} mt={8} >
-    {items.map((item) =>{ return (
-      <Link key={item.id} href={item.url}  >
-        <Flex bgColor={'gray.400'} p={4} width={300} borderRadius={'lg'}>
-        <IconButton
-        aria-label={'button for ' + `${item.title}` + 'section'}
-            bg={'brand.900'}
-            textColor={'white'}
-            icon={item.coverIcon}
-            size={'lg'}/>
-          <Heading as={'h3'} size={'md'} ml={1} alignItems={'center'}>{item.title}</Heading>
-          
-        </Flex>
-     </Link>
-    
-    )
-     
-    })}
-    </Flex>
+    <div>
 
-  </Box>
-  
-      
-    </>
+<h3 className="text-3xl font-bold text-center">Curated Humanist Resources For You</h3>
+  <div className="mb-8">
+    <div className="flex justify-around gap-4 mt-8 flex-wrap ">
+      {/* <h3 className="text-lg text-center">These might interest you</h3>
+        <div className='mb={8}'> */}
+          <div className="flex justify-around flex-wrap mt-8 gap-4 ">
+              {items.map((item) =>{ return (
+                <Link key={item.id} href={item.url}  >
+                <div className="flex w-96 p-4 bg-gray-400 border-4 rounded-xl">
+                  <button aria-label={'button for ' + `${item.title}` + 'section'} className="bg-gradient-to-r from-pink-600 to-yellow-400 text-white text-2xl p-4 rounded-xl">{item.coverIcon}</button>
+
+                
+                 
+                  <h3 className="text-lg font-bold text-center ml-1">{item.title}</h3>
+                </div>
+                </Link>
+              )
+          })}
+        </div>
+    </div>
+
+  </div>
+{/* </div> */}
+</div>
   )
 }
 

@@ -1,5 +1,3 @@
-'use client'
-import {Box, Text, Button, IconButton } from '@chakra-ui/react'
 import {FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -41,34 +39,33 @@ const footerButtons = [
 
 const Footer = () => {
   return (
-    <Box bg={'black'} marginTop={'auto'} textColor={'gray.500'} pt={8} textAlign={'center'} pb={8}>
-       <Box >
-        {footerButtons.map((footerButton) => { return( <Link key={footerButton.name} href={footerButton.url}><Button borderRadius={0} mx={2} mb={4} px={8} textColor={'black'} bgColor={footerButton.bgColor}>{footerButton.name}</Button></Link>)
+    <div className='bg-black mt-auto text-gray-500 py-8 text-center '>
+       <div >
+        {footerButtons.map((footerButton) => 
+        { return( <Link key={footerButton.name} href={footerButton.url}><button className='rounded-md mx-2 mb-4 py-2 px-8 text-black bg-white'>{footerButton.name}</button></Link>)
         })}
-       </Box>
+       </div>
 
-      <Text>Connect with us </Text>
-<Box>
+      <p>Connect with us </p>
+<div>
   {buttonSocials.map((buttonSocial) =>{
     return(
       <a href={buttonSocial.url} target='blank'
       key={buttonSocial.name}>
-          <IconButton
+          <button aria-label='button to our `${icon.name}$` link' className='bg-black text-pink-600 mx-2'>{buttonSocial.icon}</button>
       
-      aria-label='button to our `${icon.name}$` link'
-      icon={buttonSocial.icon}
-      color={'brand.900'}
-      bgColor={'black'}/>
+      
+    
       </a>
     
       
     )
   })}
-</Box>
+</div>
 
 
-<Text textAlign={'center'}>© Humanists Zimbabwe {new Date().getFullYear()}</Text>
-<Box textAlign={'center'}>
+<p className='text-center'>© Humanists Zimbabwe {new Date().getFullYear()}</p>
+<div className='text-center'>
 <Image
 alt='organisation logo'
 src={'/Logos/MainIcon.svg'}
@@ -77,9 +74,9 @@ height={50}
 className={'mx-auto block'}
 />
     
-</Box>
+</div>
 
-        </Box>
+        </div>
   )
 }
 

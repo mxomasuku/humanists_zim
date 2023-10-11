@@ -1,18 +1,16 @@
-'use client'
-import { Heading, Text, Box } from '@chakra-ui/react'
 import Image from 'next/image'
 
 const Donate = () => {
   return (
-    <Box p={{base: 4, md: 8, lg: 16 }} textAlign={'center'} >
+    <div className='p-4 md:p-8 lg:p-16 text-center' >
 
-    <Heading as={'h3'}>THIS PAGE IS UNDER CONSTRUCTION </Heading>
+    <h3 className='text-3xl'>THIS PAGE IS UNDER CONSTRUCTION </h3>
     <Image 
           alt='logo'
           height={720}
           width={1000}
           src={'/Logos/LogoName@2x.png'}/>
-    </Box>
+    </div>
   )
 }
 

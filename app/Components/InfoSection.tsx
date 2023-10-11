@@ -1,6 +1,3 @@
-'use client'
-
-import { Card, CardBody, CardFooter, CardHeader, Box, Heading, Text, SimpleGrid} from "@chakra-ui/react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -39,39 +36,43 @@ const sectionData = [
 
 }
 ]
-const aboutUs = "We are a secular and humanistic community. For us, humanism is a human way of life, based on science, which values welfare of the ecosystem in totality, independence, sovereign, justice, equality and ethical living. As such we oppose dogmatism, bigotry, hate speech, discrimination, injustice and all forms of oppression. Our aim is to bring together all non-religious people in building a freethinking Zimbabwe guided by science and empathy. We believe our society is much better when religion does not unfairly dominate discourse about public policy. As such we promote and support any group of people suffering from effects of religious bigotry."
+const aboutUs = "We are a secular and humanistic community. For us, humanism is a human way of life, based on science,n which values welfare of the ecosystem in totality, independence, sovereign, justice, equality and ethical living. As such we oppose dogmatism, bigotry, hate speech, discrimination, injustice and all forms of oppression. Our aim is to bring together all non-religious people in building a freethinking Zimbabwe guided by science and empathy. We believe our society is much better when religion does not unfairly dominate discourse about public policy. As such we promote and support any group of people suffering from effects of religious bigotry."
 const ourMission = 'Our mission is to build an effective and interactive humanist society in Zimbabwe.'
 
 const InfoSection = () => {
   return (
     <>
-        <Box mt={10} px={{base: 4, md: 8, lg: 16 }} >
-        <Heading as={'h3'} size={'md'} color={'brand.900'}>WHO ARE WE?</Heading>
-            <Text fontSize={'3xl'} fontWeight={'bold'}>{ourMission}</Text> 
-            <Text>{aboutUs}</Text>
-        </Box>
+        <div className="mt-10 p-4 md:px-8 lg:px-16" >
+        <h3 className="text-3xl text-pink-600">WHO ARE WE?</h3>
+            <p className="text-3xl font-bold">{ourMission}</p> 
+            <p>{aboutUs}</p>
+        </div>
 
 
 
-<SimpleGrid justifyContent={'center'} my={10}  columns={{base: 1, sm: 2, lg: 4}}  rowGap={4} columnGap={{sm: 4}}>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center my-10 mx-2 gap-4">
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
-            <Card w={{base: 300, sm: 300, md: 300}} h={300} className="mx-auto">
-              <CardHeader>
-                <Heading as={'h3'} size={'md'}>{item.title}</Heading>
-              </CardHeader>
-              <CardBody mt={-8}>
-                <Box h={150} bgImage={item.image} bgPosition={'center'} bgSize={'cover'}></Box>
+            <div className="mx-auto w-64 border-b border-gray-100">
+             
+                <h3 className="md mx-2">{item.title}</h3>
+            
+              <div className="mt-4">
+                <div className="h-40">
+             <img src={item.image} className="h-full w-full"/>
+
+                </div>
           
-              </CardBody>
-              <CardFooter fontSize={'sm'} mt={-8} textColor={'gray.600'}>
+              </div>
+              <div className="text-gray-600 text-sm h-12 mx-2 ">
                 {item.info}
-              </CardFooter>
-            </Card>
+              </div>
+            </div>
           </Link>
         )
 })}
-</SimpleGrid>
+</div>
     </>
  
   )

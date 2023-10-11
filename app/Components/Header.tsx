@@ -1,12 +1,11 @@
 'use client'
-import {Box, Flex, Heading, List, ListItem, HStack, IconButton} from '@chakra-ui/react'
 import Link from 'next/link'
-import {HamburgerIcon, CloseIcon} from '@chakra-ui/icons'
 import { useState } from 'react'
 import Image from 'next/image'
+import {FaBars,  FaChevronCircleUp} from 'react-icons/fa'
 
 const Header = () => {
-const [display, setDisplay] = useState('none')
+const [display, setDisplay] = useState('hidden')
 const routeLinks = [
   {'route': 'Home',
   id: 0,
@@ -33,77 +32,55 @@ id: 5}
 
   return (
     <>
-    <Flex justifyContent={'space-between'} textColor={'white'} bgColor={'black'}>
-    <Box px={8}>
+    <div className='flex justify-between text-white bg-black'>
+    <div className=''>
       <Link href={'/'}>
-      <Heading as={'h4'} >
+      <h4 >
           <Image 
           alt='logo'
           height={75}
           width={150}
           src={'/Logos/LogoName@2x.png'}/>
-        </Heading>
+        </h4>
       </Link>
       
-    </Box>
-    <Box>
-      <List>
-      <Flex justify={'space-between'} alignItems={'center'} mt={4} gap={4} display={{base: 'none', md: 'flex', lg: 'block'}}>
-          <HStack spacing={"30px"} pr={20}> 
+    </div>
+    <div>
+      <ul>
+      <div  className='hidden md:flex mt-4 align-center justify-between ' >
+         
           {routeLinks.map((route) => {return(
-            <ListItem key={route.id}>
+            <li key={route.id} className='px-4'>
               <Link href={route.url}>{route.route}</Link>
-            </ListItem>
+            </li>
           )})}
-          </HStack>
-        </Flex>
-      </List>
-      </Box>
+        </div>
+      </ul>
+      </div>
     
-      <IconButton
-      aria-label='Open-Menu'  
-      icon={<HamburgerIcon/>}
-      color={'brand.900'}
-      bgColor={'black'}
-      display={{base: 'flex', md: 'none', lg: 'none'}}
-      onClick={()=> setDisplay('flex')}
-     />
+      <button aria-label='Open-Menu' className='text-pink-600 bg-black p-4 flex md:hidden'
+      onClick={()=> setDisplay('flex')}>{<FaBars/>}</button>
 
-    </Flex>
-<Flex 
-display={display}
-w={'100vw'}
-h={'60vh'}
-pos={'fixed'}
-bgColor={'gray.200'}
-top={0}
-left={0}
-overflowY={'auto'}
-zIndex={20}
-flexDir={'column'}>
 
-  <Flex justify={'flex-end'}>
-    <IconButton
-    aria-label='Close Menu'
-    icon={<CloseIcon/>}
-    size={'xl'}
-    mr={4}
-    mt={4}
-    onClick={()=> setDisplay('none')}
-    />
-  </Flex>
-<Flex
-    flexDir={'column'} alignItems={'center'}>
-      <List mb={4}>
+    </div>
+<div className='fixed flex bg-gray-200 block w-full h-96 mt-0 ml-0 overflow-y-auto flex-col z-20 hidden' >
+
+
+  <div className=' flex justify-end text-3xl mr-4 mt-4' onClick={()=> setDisplay('hidden')} aria-label='Close Menu'>
+ <FaChevronCircleUp/>
+  </div>
+<div className='flex flex-col align-center text-center'>
+      <ul className="mb-4">
       {routeLinks.map((route) => {return(
-            <ListItem key={route.id} py={4} fontSize={'xl'}><Link href={route.url} onClick={()=> setDisplay('none')}>
+            <li key={route.id} className="py-4 text-xl">
+              <Link href={route.url} onClick={()=> setDisplay('hidden')}>
               {route.route}</Link>
-            </ListItem>
+            </li>
           )})}
           
-    </List>
-      </Flex>
-</Flex>
+    </ul>
+      </div>
+</div>
  
     </>
   )

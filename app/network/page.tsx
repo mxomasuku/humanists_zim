@@ -1,8 +1,7 @@
-'use client'
-import { Heading, Text, Box, Flex, Image} from '@chakra-ui/react'
 import { FaFacebook, FaMastodon, FaReddit, FaWhatsapp, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import Form from '../Components/Form'
 import NetworkGrid from '../Components/NetworkGrid'
+import Image from 'next/image'
 // import Image from 'next/image'
 
 
@@ -13,36 +12,40 @@ import NetworkGrid from '../Components/NetworkGrid'
 //App starts here
 const Network = () => {
   return (
-    <Box px={{base: 4, md: 8, lg: 16 }} my={12}>
-      <Box py={8}>
-         <Heading as={'h1'} size={'xl'} textAlign={'center'}>Join the Growing Network!</Heading>
+    <div className='px-4 md:px-8 lg:px-16 my-12'>
+      <div className='py-8'>
+         <h1 className='text-center text-4xl font-bold'>Join the Growing Network!</h1>
 
-    <Text as={'h4'} fontSize={'2xl'} px={8}>Millions of freethinkers around the world and discover a new way of thinking full of endless possibilities in this one life we have.</Text>
-      </Box>
+    <h4 className='text-2xl px-8'>Millions of freethinkers around the world and discover a new way of thinking full of endless possibilities in this one life we have.</h4>
+      </div>
    
-<Box py={8}>
+<div className='py-8'>
 <Image
+className='mx-auto'
+alt='promo banner'
 src={'/StaticResources/hero.png'}
+width={'720'}
+height={'1080'}
 />
-</Box>
+</div>
 
 <Form/>
 <NetworkGrid/>
-<Box textAlign={'center'}>
-  <Heading as={'h4'} size={'md'}>Share our page in your community</Heading>
-  <Flex gap={2} justifyContent={'center'} mt={4}>
+<div className='center'>
+  <h4 className='text-md text-center'>Share our page in your community</h4>
+  <div className='flex justify-center mt-4 gap-2'>
   <FaMastodon/>
   <FaFacebook/>
   <FaWhatsapp/>
   <FaTwitter/>
   <FaReddit/>
  <FaLinkedin/>
-  </Flex>
+  </div>
 
-</Box>
+</div>
 
 
-    </Box>
+    </div>
   )
 }
 
