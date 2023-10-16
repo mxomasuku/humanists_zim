@@ -15,12 +15,12 @@ const getPostContent = (slug : string) => {
 }
 export const generateStaticParams = async () => {
   const posts = getPostMetaData()
-return posts.map((post) =>{
-  slug: post.slug
-})
+return posts.map((post) =>({
+  slug: post.slug,
+}))
 }
 
-const Post = (props: any) => {
+const PostPage = (props: any) => {
   const slug = props.params.slug
   const post = getPostContent(slug)
   return (
@@ -47,4 +47,4 @@ const Post = (props: any) => {
   )
 }
 
-export default Post
+export default PostPage
