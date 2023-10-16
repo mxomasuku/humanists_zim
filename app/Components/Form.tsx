@@ -24,7 +24,7 @@ const Form = () => {
                 <form>
                     <input type={'email'} placeholder={'enter your email'} className="md:w-96 bg-gray-100 p-2 rounded-md inline-block" />
                 </form>
-                <button type={'submit'} className="rounded-md mx-2 mb-4 py-2 px-8 text-white rounded-md bg-gradient-to-r from-pink-600 to-yellow-400 mt-4 ">Subscribe</button>
+                <button type={'submit'} className="rounded-md mx-2 mb-4 py-2 px-8 text-white rounded-md bg-gradient-to-r from-pink-600 to-yellow-400 mt-4 hover:bg-white ">Subscribe</button>
             </div>
 
 

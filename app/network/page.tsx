@@ -14,7 +14,7 @@ const Network = () => {
   return (
     <div className='px-4 md:px-8 lg:px-16 my-12'>
       <div className='py-8'>
-         <h1 className='text-center text-4xl font-bold'>Join the Growing Network!</h1>
+         <h1 className='text-4xl font-bold text-white bg-gradient-to-r from-pink-600 to-yellow-400 my-4 py-10 lg:text-center lg:mx-32 lg:mx-auto rounded-lg'>Join the Growing Network!</h1>
 
     <h4 className='text-2xl px-8'>Millions of freethinkers around the world and discover a new way of thinking full of endless possibilities in this one life we have.</h4>
       </div>

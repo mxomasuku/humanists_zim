@@ -54,11 +54,11 @@ const InfoSection = () => {
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center my-10 mx-2 gap-4">
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
-            <div className="mx-auto w-64 border-b border-gray-100">
+            <div className="mx-auto w-64 border-b border-gradient-to-r from-pink-600 via-blue-500 to-yellow-400 hover:shadow-lg mb-4">
              
-                <h3 className="md mx-2">{item.title}</h3>
+                <h3 className="md p-2 text-white font-bold rounded-t-xl bg-gradient-to-r from-pink-600 via-blue-500 to-yellow-400">{item.title}</h3>
             
-              <div className="mt-4">
+              <div className="">
                 <div className="h-40">
              <img src={item.image} className="h-full w-full"/>
 

@@ -32,7 +32,7 @@ const Post = (props: any) => {
      height={700}
      width={480}
      src={post.data.coverImage}
-     className='mx-auto block' 
+     className='mx-auto block'
     />
      </div>
    

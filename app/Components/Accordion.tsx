@@ -25,18 +25,18 @@ if(contentRef.current){
    } 
 
   return (
-    <div className='flex flex-col items-center justify-center w-full px-2 text-lg pt-4 lg:text-base'>
+    <div className='flex flex-col items-center justify-center w-full px-2 text-lg pt-4 lg:text-base  '>
       <button onClick={toggleAccordian}
       className={`bg-transparent px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
         <div className={'py-3'}>
             <div className={'flex items-center justify-between h-14 text-left'}>
-                <span className='ml-2 font-medium lg:font-semibold lg:text-xl text-sm text-yellow-600'>{question}</span>
+                <span className='ml-2 text-md font-bold lg:font-semibold lg:text-xl text-yellow-600'>{question}</span>
                 <div>
                     {turn![idx] ? <FaMinus/> : <FaPlus/>}
                 </div>
             </div>
             <div ref={contentRef} className='mx-4 overflow-hidden text-left transition-all  duration-500 h-full'>
-                <p className='py-1 font-normal lead-normal text-justify whitespace-pre-line text-xs lg:text-lg'>
+                <p className='py-1 lead-normal text-justify whitespace-pre-line text-sm lg:text-lg'>
                     {answer}
                 </p>
             </div>

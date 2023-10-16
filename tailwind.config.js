@@ -4,7 +4,12 @@ module.exports = {
   './pages/**/*.{js,ts,jsx,tsx,mdx}',
   './components/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/StaticResources/hero.png')",
+       
+      }
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 }

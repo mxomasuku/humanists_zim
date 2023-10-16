@@ -154,7 +154,7 @@ const NetworkGrid = () => {
     
     <div className='p-4'>
     
-      <h2 className='text-3xl border-b font-bold border-gray-pink.600 mb-4'>International Communities</h2>
+      <h2 className='text-3xl border-b font-bold border-pink.600 mb-4'>International Communities</h2>
       {communities.map((community)=>{
       return(
     <a href={community.url}

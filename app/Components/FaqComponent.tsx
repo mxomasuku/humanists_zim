@@ -29,8 +29,6 @@ const FaqComponent = ({handleClick, isSomeActive, data, turn, setTurn}: FaqCompo
             {!isSomeActive? "Open All": "Close All"}</span>
           <div className={"relative transition-all  ease-in-out duration-200" + (isSomeActive ? "rotate-180" : "rotate-0")}>
             {!isSomeActive?  <FaArrowDown/> : <FaArrowUp/>}
-          
-
           </div>
         </button>
       </div>

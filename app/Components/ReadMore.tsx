@@ -25,7 +25,7 @@ const ReadMore = () => {
   return (
     <div>
 
-<h3 className="text-3xl font-bold text-center">Curated Humanist Resources For You</h3>
+<h3 className="text-3xl font-bold text-center 'pb-4 mt-8 text-4xl bg-gradient-to-r from-pink-600 to-yellow-400 text-transparent bg-clip-text inline-block'">Curated Humanist Resources For You</h3>
   <div className="mb-8">
     <div className="flex justify-around gap-4 mt-8 flex-wrap ">
       {/* <h3 className="text-lg text-center">These might interest you</h3>

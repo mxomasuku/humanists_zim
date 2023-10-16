@@ -10,18 +10,18 @@ const featureCard = postMetaData.map((post) => (
 <FeatureCard key={post.slug} {...post }/>))
 
   
-return (<div>
-  <div className="lg:m-8">
-  <h1 className="text-4xl font-bold text-center">Our Blog: Letters to Humanity</h1>
+return (<div className="mx-4 lg:mx-36">
+  <div className="lg:my-8">
+  <h1 className='text-4xl mt-4  font-bold text-white bg-gradient-to-r from-pink-600 to-yellow-400 py-10 rounded-lg text-center'>Our Blog</h1>
   </div>
-<div className="mx-8">
-  <div className="my-24 md:grid md:grid-cols-2 lg:grid-cols-3">
+<div className="">
+  <div className="my-24 md:grid md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4">
     {featureCard}
   </div>
-  <p className="my-24">Want to contribute something? Fill in this form or email Admin at admin@humanistszim.co.zw</p>
+  <p className="my-24">Want to contribute something? Fill in this <span className="text-pink-600"> <a href="">form</a></span> or email us at <span className="text-pink-600"><a href="mailto:admin@humanistszim.co.zw">admin@humanistszim.co.zw</a></span></p>
 
   <div>
-Share items go here
+{/* Share items go here */}
   </div>
 
 </div>

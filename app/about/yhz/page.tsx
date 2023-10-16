@@ -3,7 +3,7 @@ const about = () => {
   return (
     <>
     <div className="text-center ">
-        <h1 className=' text-2xl px-2 lg:text-4xl font-bold mt-8 py-8 lg:px-32'>Young Humanists Zimbabwe</h1>
+        <h1 className='text-4xl font-bold text-white bg-gradient-to-r from-pink-600 via-blue-500 to-yellow-400 my-4 py-10 lg:text-center lg:mx-32 lg:mx-auto rounded-lg'>Young Humanists Zimbabwe</h1>
         <h3>Humanism offers the youth an exciting chance to connect and experience the vibrancy of their lives and lead more meaningful lives</h3>
     </div>
     <h2>How Humanist are you? </h2>

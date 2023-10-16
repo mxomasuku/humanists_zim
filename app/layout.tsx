@@ -20,7 +20,7 @@ export default function RootLayout({
       {/* <GoogleAnalytics GA_MEASUREMENT_ID='G-G5EBGL9D5X'/> */}
       <body className='body'>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col h-full'>
 
         <Header/>
           {children}

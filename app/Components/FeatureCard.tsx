@@ -5,7 +5,7 @@ import { PostMetaData } from './Interfaces/PostMetaData'
 
 const FeatureCard = (props: PostMetaData) => {
   return (
-    <div className="mb-16 overflow-hidden  mx-4 rounded-lg shadow-lg md:shadow-sm hover:shadow-lg">
+    <div className="mb-16 overflow-hidden lg:mx-4 rounded-lg shadow-lg md:shadow-sm hover:shadow-lg">
       <Link href={`/posts/${props.slug}`}>
         <div className=" h-36 lg:h-48 relative pb-3/5 ">
           <Image

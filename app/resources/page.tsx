@@ -70,21 +70,15 @@ const Resources = () => {
   return (
     <>
        <p className='text-pink-600 text-center text-sm md:text-md lg:font-bold'>This page contains links to books and resources, for some light reading for those who are curious about the conversations which humanists have about humanity</p>
-      <div className="my-8">
-      <h1  className='text-3xl font-bold mb-4 text-center'>Explore Humanism from Reliable Sources</h1>
-     <Image
-     src={'/StaticResources/LearnMore.jpg'}
-     width={800}
-     height={80}
-     alt="decorative"
-     className='mx-auto block'
-     />
+      <div className="my-8 p-4 mx-4 lg:px-36">
+      <h1  className='text-4xl font-bold text-white bg-gradient-to-r from-pink-600 to-yellow-400 my-4 py-10 lg:text-center rounded-lg'>Explore Humanism from Reliable Sources</h1>
+   
       </div>
       <div className="container mt-8 mx-4 lg:mx-96">
 
 <div>
-  <div className="mb-8 w-96">
-  <h4 className='underline font-bold mb-2 text-2xl underline-pink-600'>Web Pages</h4>
+  <div className="mb-8 lg:w-96">
+  <h4 className='underline font-bold mb-2 text-2xl text-underline decoration-pink-400 decoration-4'>Web Pages</h4>
 
 
 <ol>
@@ -109,7 +103,7 @@ const Resources = () => {
 
 
 <div className="mb-8 w-96">
-    <h4 className='underline mb-2 text-2xl font-bold text-underline-pink-600'>Academic Papers</h4>
+    <h4 className='underline mb-2 text-2xl font-bold text-underline decoration-pink-400 decoration-4'>Academic Papers</h4>
 <ol>
 {academicPapers.map((academicPaper)=>{
   return(
@@ -125,7 +119,7 @@ const Resources = () => {
   <p>by Thompson Samkange (1980)</p>
 </div>
 <div className='mb-8'>
-<h4 className='underline font-bold mb-2 text-2xl font-bold text-underline-pink-600'>Essays</h4>
+<h4 className='underline font-bold mb-2 text-2xl font-bold text-underline decoration-pink-400 decoration-4'>Essays</h4>
 <ol>
 {essays.map((essay)=>{
 return(
@@ -138,7 +132,7 @@ return(
 </ol>
 </div>
 <div className="mb-16">
-<h4 className='underline text-2xl mb-2 font-bold text-underline-pink-600'>Books</h4>
+<h4 className='underline text-2xl mb-2 font-bold text-underline decoration-pink-400 decoration-4'>Books</h4>
 <ol >
 {books.map((book) =>{
   return(
