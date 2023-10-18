@@ -6,7 +6,7 @@ const layout = ({
     children: React.ReactNode;
   }) => {
   return (
-    <div>
+    <div className="mt-32">
       {children}
     </div>
   )

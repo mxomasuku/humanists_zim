@@ -14,7 +14,7 @@ const FAQ = () => {
   }
 
   return (
-    <div className='lg:px-36'>
+    <div className='lg:px-36 mt-8'>
  <FaqComponent 
  handleClick={handleClick}
  isSomeActive={isSomeActive}

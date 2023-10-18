@@ -33,7 +33,7 @@ id: 5}
 
   return (
     <>
-    <div className='flex justify-between text-white bg-black w-full top-0 right-0 left-0 z-10'>
+    <div className='flex justify-between text-white bg-black w-full fixed top-0 right-0 left-0 z-10'>
     <div className=''>
       <Link href={'/'}>
       <h4 >

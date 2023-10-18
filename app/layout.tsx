@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <GoogleAnalytics GA_MEASUREMENT_ID='G-G5EBGL9D5X'/> */}
-      <body className='body'>
+      <body className='body h-screen'>
 
-          <div className='flex flex-col h-full'>
+          <div className='flex flex-col h-screen'>
 
         <Header/>
           {children}

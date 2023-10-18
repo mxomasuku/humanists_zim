@@ -69,9 +69,9 @@ const essays = [
 const Resources = () => {
   return (
     <>
-       <p className='text-pink-600 text-center text-sm md:text-md lg:font-bold'>This page contains links to books and resources, for some light reading for those who are curious about the conversations which humanists have about humanity</p>
+       <p className='text-pink-600 text-center text-xs px-2 md:text-md lg:font-bold mt-24'>This page contains links to books and resources, for some light reading for those who are curious about the conversations which humanists have about humanity</p>
       <div className="my-8 p-4 mx-4 lg:px-36">
-      <h1  className='text-4xl font-bold text-white bg-gradient-to-r from-pink-600 to-yellow-400 my-4 py-10 lg:text-center rounded-lg'>Explore Humanism from Reliable Sources</h1>
+      <h1  className='text-4xl font-bold text-white bg-gradient-to-r from-pink-600 to-yellow-400 py-10 px-2 lg:text-center rounded-lg'>Explore Humanism from Reliable Sources</h1>
    
       </div>
       <div className="container mt-8 mx-4 lg:mx-96">
@@ -85,8 +85,8 @@ const Resources = () => {
 
 {webPages.map((webPage) =>{
   return(
-    <li key={webPage.title}  className="mb-4">
-      <a href={webPage.url} className="text-blue-900 text-xl">
+    <li key={webPage.title}  className="m-4">
+      <a href={webPage.url} className="text-blue-900  text-lg md:text-xl">
         {webPage.title}
       </a>
       <p>Source: {webPage.source}</p>
@@ -102,20 +102,20 @@ const Resources = () => {
 
 
 
-<div className="mb-8 w-96">
+<div className="mb-8 lg:w-96">
     <h4 className='underline mb-2 text-2xl font-bold text-underline decoration-pink-400 decoration-4'>Academic Papers</h4>
 <ol>
 {academicPapers.map((academicPaper)=>{
   return(
-    <li className="mb-4" key={academicPaper.title}>
-      <a href={academicPaper.url} className="text-blue-900 text-xl">{academicPaper.title}</a>
+    <li className="m-4" key={academicPaper.title}>
+      <a href={academicPaper.url} className="text-blue-900 text-lg md:text-xl ">{academicPaper.title}</a>
       <p>Author: {academicPaper.author}</p>
     </li>
   )
 })}
 </ol>
  <p className='text-pink-600 text-xs'>Click below to help us locate this paper</p>
-  <a href="https://worldcat.org/title/869755918" className="text-blue-900 text-xl">Hunhuism or ubuntuism : a Zimbabwe indigenous political philosophy </a>
+  <a href="https://worldcat.org/title/869755918" className="text-blue-900 text-lg md:text-xl">Hunhuism or ubuntuism : a Zimbabwe indigenous political philosophy </a>
   <p>by Thompson Samkange (1980)</p>
 </div>
 <div className='mb-8'>
@@ -123,8 +123,8 @@ const Resources = () => {
 <ol>
 {essays.map((essay)=>{
 return(
-  <li className="mb-4" key={essay.title}>
-    <a href={essay.url}  className="block text-blue-900 text-xl">{essay.title} </a>
+  <li className="m-4" key={essay.title}>
+    <a href={essay.url}  className="block text-blue-900 text-lg md:text-xl">{essay.title} </a>
   </li>
 )
 })}
@@ -137,7 +137,7 @@ return(
 {books.map((book) =>{
   return(
     <li key={book.title} >
-        <div className="flex mb-4">
+        <div className="flex m-4">
       <div className="w-75 h-75 mr-8">
         <Image src={book.image}
         alt={`'cover of ' + ${book.title}`}

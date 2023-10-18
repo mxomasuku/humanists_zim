@@ -43,7 +43,7 @@ const page = () => {
   return (
 
   
-    <div className='mx-auto my-16'>
+    <div className='mx-auto mb-16 mt-36'>
      
 <div className="mb-4">
 <h3 className="text-3xl">The Humanist Hubris Podcast </h3>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Store = () => {
   return (
     <>
-   <div className='text-center'>
+   <div className='text-center mt-36'>
 
 <h3 className="text-3xl">THIS PAGE IS UNDER CONSTRUCTION </h3>
 <Image 
