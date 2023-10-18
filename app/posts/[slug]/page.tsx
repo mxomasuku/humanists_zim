@@ -16,8 +16,9 @@ const getPostContent = (slug : string) => {
 export const generateStaticParams = async () => {
   const posts = getPostMetaData()
 return posts.map((post) =>({
-  slug: post.slug,
+  slug: post.slug
 }))
+//  return [{slug: "ethics-can-exist-in-a-world-without-religion-1"}]
 }
 
 const PostPage = (props: any) => {
@@ -25,7 +26,7 @@ const PostPage = (props: any) => {
   const post = getPostContent(slug)
   return (
     <div>
-        <h1 className=' text-2xl px-2 lg:text-4xl font-bold mt-8 text-center py-8 lg:px-32'>{post.data.title}</h1>
+        <h1 className=' text-2xl px-2 lg:text-4xl font-bold mt-32 text-center py-8 lg:px-32'>{post.data.title}</h1>
      <div className='align-center '>
      <Image
      alt={'decorative image'}

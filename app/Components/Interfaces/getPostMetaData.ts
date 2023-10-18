@@ -18,7 +18,7 @@ const getPostMetaData = (): PostMetaData[] => {
         excerpt: matterResult.data.excerpt,
         coverImage: matterResult.data.coverImage,
         author: matterResult.data.author,
-        slug: fileName.replace(".md", " ")
+        slug: fileName.replace(".md", "")
       }
     })
     return posts
