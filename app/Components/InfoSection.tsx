@@ -36,7 +36,7 @@ const sectionData = [
 
 }
 ]
-const aboutUs = "We are a secular and humanistic community. For us, humanism is a human way of life, based on science,n which values welfare of the ecosystem in totality, independence, sovereign, justice, equality and ethical living. As such we oppose dogmatism, bigotry, hate speech, discrimination, injustice and all forms of oppression. Our aim is to bring together all non-religious people in building a freethinking Zimbabwe guided by science and empathy. We believe our society is much better when religion does not unfairly dominate discourse about public policy. As such we promote and support any group of people suffering from effects of religious bigotry."
+const aboutUs = "We are a secular humanist community that values human welfare, freedom, equality, and ethical living. We oppose bigotry, hate speech, and all forms of oppression. We aim to promote secularism and build a freethinking, progressive Zimbabwe guided by science and human empathy. We believe that our society is better when people are free to live their lives without religious limitations on their understanding of the human condition and public policy discourse."
 const ourMission = 'Our mission is to build an effective and interactive humanist society in Zimbabwe.'
 
 const InfoSection = () => {
@@ -51,13 +51,13 @@ const InfoSection = () => {
 
 
 
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center my-10 mx-2 gap-4">
+  <div className="grid grid-cols-1 md:grid-cols- lg:grid-cols-4 justify-center my-10 mx-2 gap-4">
 {sectionData.map((item) =>{ return (
            <Link href={item.url} key={item.id}>
-            <div className="mx-auto w-64 border-b border-gradient-to-r from-pink-600 via-blue-500 to-yellow-400 hover:shadow-lg mb-4">
-             
-                <h3 className="md p-2 text-white font-bold rounded-t-xl bg-gradient-to-r from-pink-600 via-blue-500 to-yellow-400">{item.title}</h3>
-            
+            <div className="mx-auto w-64 border-b border-gradient-to-r from-pink-600 via-orange-500 to-yellow-400 hover:shadow-lg mb-4">
+
+                <h3 className="md p-2 text-white font-bold rounded-t-xl bg-gradient-to-r from-pink-600 via-orange-500 to-yellow-400">{item.title}</h3>
+
               <div className="">
                 <div className="h-40">
              <img src={item.image} className="h-full w-full"/>

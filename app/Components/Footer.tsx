@@ -39,7 +39,7 @@ const footerButtons = [
 
 const Footer = () => {
   return (
-    <div className='bg-black mt-auto text-gray-500 py-8 text-center '>
+    <div className='bg-black text-gray-500 py-8 mt-16 text-center '>
        <div >
         {footerButtons.map((footerButton) => 
         { return( <Link key={footerButton.name} href={footerButton.url}><button className='rounded-md mx-2 mb-4 py-2 px-8 text-black bg-white'>{footerButton.name}</button></Link>)

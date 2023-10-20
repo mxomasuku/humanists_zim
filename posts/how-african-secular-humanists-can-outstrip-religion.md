@@ -64,7 +64,7 @@ The price we pay for thinking we are better is having to demonstrate that we are
 There is a danger in being too sure of our ideology and methods. **What if Humanism isn’t growing in Africa because we are not adapting to the continent’s contextual demands?** 
 
 
- [Anya Overmann](https://anyaovermann.com/) in an interview with [Scott Douglas Jacobsen](https://scott-d-jacobsen.medium.com/) [[Conatus News Volume V\]](https://in-sightjournal.com/ebooks/2017-2/) explained it this way:
+ [Anya Overmann](https://anyaovermann.com/) in an interview with [Scott Douglas Jacobsen](https://scott-d-jacobsen.medium.com/) [Conatus News Volume V\]](https://in-sightjournal.com/ebooks/2017-2/) explained it this way:
 
 > *We need to reform the way we think about ourselves and our values. We need to take a step back and ask, “What are we doing here?” We say, “We stand for all humans.” But do we, if we act like we’re superior to some humans? We need to do some self-reflection as Humanists. We need to ask, “Are we trying to value all human beings?”*
 >
@@ -84,11 +84,11 @@ Back in 2013 when we started the [Zimbabwean Atheists Facebook page](https://www
 
 As you can imagine, we didn’t attract that many people. Out of an estimated 6.5 million Zimbabweans online, we only had about 100 followers. Zimbabwe needed a different approach and we didn’t realise it at the time.
 
-After a while, we ran out steam, left the page frustrated and focused more on WhatsApp. Here we had more personal interactions with our members, the curious and outright opponents. The engagement we got and the relationships that came after were amazing. 
+After a while, we ran out steam, left the page frustrated and focused more on WhatsApp. Here we had more personal interactions with our members, the curious and outright opponents. The engagement we got and the relationships that came after were amazing.
 
 Our community grew in numbers, individual support systems and ideas. We even developed some strong ties with many Humanists across the continent most notably [HALEA Uganda](https://haleaug.org) and [Zambian Atheists.](https://www.facebook.com/zambianatheist/?comment_id=Y29tbWVudDoyOTEzODk1NTgwMTEwMjBfMjkxMzkxNDY0Njc3NDk2)
 
-The point I am trying to show here is that people need a community with actual humans who share life with them not dudes barking at ideologies at them all the time. 
+The point I am trying to show here is that people need a community with actual humans who share life with them not dudes barking at ideologies at them all the time.
 
 
 A friend of mine once asked me, *“Why is it that Humanism is so broad and yet it seems the only thing we are on is attacking religion? I understand that religion is a major obstacle but, are there no other domains we could work to improve and demonstrate our philosophy’s strength and applicability?”*
@@ -97,17 +97,17 @@ What came to immediately came to my mind were mental health concerns and the ide
 
 Additionally, Humanists need to address the question of content accessibility for anyone who is curious about their philosophy. Maximum empathy and accessibility are the name of the game in 21st century marketing.
 
-When I was writing the [annual Humanist International report for Zimbabwe](https://fot.humanists.international/countries/africa-eastern-africa/zimbabwe/) late last year, I learned that about 4 out 5 people couldn’t explain what Humanism was. They were distributed among those who had a rough idea and those who were completely clueless. 
+When I was writing the [annual Humanist International report for Zimbabwe](https://fot.humanists.international/countries/africa-eastern-africa/zimbabwe/) late last year, I learned that about 4 out 5 people couldn’t explain what Humanism was. They were distributed among those who had a rough idea and those who were completely clueless.
 
-We have been making the same mistake that Coca-Cola made in 1985: Trying to beat the opponent instead of improving our sells. We should focus on strengthening our community not competing with religion. 
+We have been making the same mistake that Coca-Cola made in 1985: Trying to beat the opponent instead of improving our sells. We should focus on strengthening our community not competing with religion.
 
-## **2. Of collaborations** 
+## **2. Of collaborations**
 
 Society is strengthened through voluntary cooperation. Collaborations could go a long way for African Humanist organisations. What they need more than ever is diversity of solutions and broader reach.
 
 A task that would normally take one organization about 4 years can take a year even 6 months if hubs work together.
 
-There are so many organisations which Humanists share common ground with. I don’t see why they are not collaborating with them. Feminist organisations, Anti-Corruption task forces, Children’s rights organisations. The list is endless. 
+There are so many organisations which Humanists share common ground with. I don’t see why they are not collaborating with them. Feminist organisations, Anti-Corruption task forces, Children’s rights organisations. The list is endless.
 
 \-    Networking
 
@@ -115,44 +115,38 @@ There are so many organisations which Humanists share common ground with. I don�
 
 \-    Collaborations
 
- 
+
 
 
 
 
 ## **Adding Context: The Long Game**
 
-> *“Numbers tell a convincing story, it’s up to you to give that story a meaning.”* 
+> *“Numbers tell a convincing story, it’s up to you to give that story a meaning.”*
 >
-> Unknown 
+> Unknown
 
 
 
-Throughout history, the most successful action in moral inquiries around racism, civil and women’s rights have been anchored in statistics. 
+Throughout history, the most successful action in moral inquiries around racism, civil and women’s rights have been anchored in statistics.
 
-Where am I going with this? 
+Where am I going with this?
 
-African Humanists’ only hope of creating a reliable narrative is in the data trail they create. This includes data on their programs, problems, members or anything that might be useful. 
+African Humanists’ only hope of creating a reliable narrative is in the data trail they create. This includes data on their programs, problems, members or anything that might be useful.
 
 Humanists should utilize the scientific method; Identify the problem and the solution presents itself.
 
-It will be much easier for us to make accurate predictions and act in the system we intend to change if we have more insight into the trends in our society. 
+It will be much easier for us to make accurate predictions and act in the system we intend to change if we have more insight into the trends in our society.
 
 Much like Coca-Cola, we don’t want to make drastic decisions with inadequate market data.
 
 ## **What to do for 2021 onwards**
 
-In 2021, Humanist should lay down the foundation work now, or the decade is lost. 
+In 2021, Humanist should lay down the foundation work now, or the decade is lost.
 
 All progress made will be buried and they will be picked off one by one by whichever predatory force in their respective contexts. We need to harness the power in reaching out, working with people, asking for help and offering it as well.
 
-We are outnumbered and outgunned. [What happened to Mubarak Bala](https://www.theguardian.com/books/2020/aug/06/wole-soyinka-protests-imprisonment-of-nigerian-humanist-mubarak-bala) and so many others in the past will only get worse unless we change our goal-oriented behaviour. We also must set up structures to protect ourselves and for growth in the now and in the future. It all starts with changing our approach to focus on connecting with people and not attacking their ideas.  
+We are outnumbered and outgunned. [What happened to Mubarak Bala](https://www.theguardian.com/books/2020/aug/06/wole-soyinka-protests-imprisonment-of-nigerian-humanist-mubarak-bala) and so many others in the past will only get worse unless we change our goal-oriented behaviour. We also must set up structures to protect ourselves and for growth in the now and in the future. It all starts with changing our approach to focus on connecting with people and not attacking their ideas.
 
 Thanks for reading. Share this post and save the future of African Humanism.
 
- 
-
- 
- 
-
- 

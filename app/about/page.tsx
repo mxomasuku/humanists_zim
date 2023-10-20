@@ -23,13 +23,13 @@ We are humanists, which means at the core of our work is the realisation that th
 <div>
 <h2 className={' my-8 font-bold text-2xl md:text-3xl'}>Our History</h2>
 <p className='mt-8'>
-Humanists Zimbabwe was founded in 2014 although the name Humanists Zimbabwe was first used in 2023 when 2 local secular organisations, Zimbabwean Atheists and PICH (Project for Integrating Cultures in Humanism) joined to become one organisation. Zimbabwean Atheists existed since 2014 as an online community of atheists working towards creating atheistic awareness in Zimbabwe. PICH would only come into existence 5 years later in 2019. The goal of PICH was to provide a platform for secular humanists and non-religious people to create content that spreads awareness of humanism and develop humanist thought from native knowledge systems. 
+Humanists Zimbabwe was founded in 2023 by the merger of two secular organizations: Zimbabwean Atheists, an online community of atheists working to raise awareness of atheism in Zimbabwe since 2014, and PICH (Project for Integrating Cultures in Humanism), a platform for secular humanists and non-religious people to create content that spreads awareness of humanism and develops humanist thought from native knowledge systems, founded in 2019.
 </p>
 <p className='mt-8'>
-In 2022, PICH became a member of Humanists International’s global humanist network. The following year, PICH was awarded a grant from Humanists International to create a Secular digital media hub, a necessary move given the stigma and censorship secularist ideas faced in mainstream media. 
+In 2022, PICH became a member of Humanists International's global humanist network and was awarded a grant to create a Secular digital media hub, a necessary move given the stigma and censorship secularist ideas faced in mainstream media.
 </p>
 
-<p className='mt-8'>Today Humanists Zimbabwe exists as a symbol and successor of the collective resilience of the non-religious movement in Zimbabwe aimed at creating a self-sustaining and effective network for a more humane and rational society.</p>
+<p className='mt-8'>Today, Humanists Zimbabwe is a symbol and successor of the collective resilience of the non-religious movement in Zimbabwe, aimed at creating a self-sustaining and effective network for a more humane and rational society.</p>
 </div>
 
 

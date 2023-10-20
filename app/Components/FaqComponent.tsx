@@ -24,7 +24,7 @@ const FaqComponent = ({handleClick, isSomeActive, data, turn, setTurn}: FaqCompo
         FREQUENTLY ASKED QUESTIONS</span>
       <div className="flex items-center justify-between w-full mb-6 lg:justify-end">
 
-        <button onClick={handleClick} className="flex items-center mr-3 space-x-1 text-sm font-bold border-b lg:text-base lg:space-x-2 py-2 px-4 bg-slate-50">
+        <button onClick={handleClick} className="flex items-center mr-3 space-x-1 mt-6 bg-gray-700 rounded-md text-sm font-bold border-b lg:text-base lg:space-x-2 py-2 px-4 bg-slate-50">
           <span className='text-yellow-500 min-w-fit text-ellipsis'>
             {!isSomeActive? "Open All": "Close All"}</span>
           <div className={"relative transition-all  ease-in-out duration-200" + (isSomeActive ? "rotate-180" : "rotate-0")}>
