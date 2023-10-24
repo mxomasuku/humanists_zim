@@ -2,6 +2,7 @@ import { FaFacebook, FaMastodon, FaReddit, FaWhatsapp, FaTwitter, FaLinkedin } f
 import Form from '../Components/Form'
 import NetworkGrid from '../Components/NetworkGrid'
 import Image from 'next/image'
+import HubspotForm from '../Components/Hubspot'
 // import Image from 'next/image'
 
 
@@ -30,6 +31,7 @@ height={'1080'}
 </div>
 
 <Form/>
+<HubspotForm/>
 <NetworkGrid/>
 <div className='center'>
   <h4 className='text-md text-center'>Share our page in your community</h4>

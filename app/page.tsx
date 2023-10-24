@@ -4,6 +4,7 @@ import InfoSection from './Components/InfoSection'
 import ReadMore from './Components/ReadMore'
 import Form from './Components/Form'
 import PostsLayout from './Components/PostsLayout'
+import HubspotForm from './Components/Hubspot'
 
 
 
@@ -13,6 +14,10 @@ export default function Home() {
       <Hero/>
      <InfoSection />
      <Form/>
+     {/* <div mx-48>
+     <HubspotForm/>
+     </div> */}
+     
      <ReadMore />
 
 
