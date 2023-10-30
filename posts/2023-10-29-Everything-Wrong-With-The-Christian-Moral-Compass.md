@@ -42,4 +42,3 @@ Salvation is not morality, yet it is what numerous Christians in Zimbabwe and be
 
 The Christian moral compass points in the wrong direction, as do many other religions with dogmatic doctrines. Morality should be based on reason and social intelligence. With time, we will cover more of these aspects in greater detail.
 
-Takudzwa Mazwienduna is a humanist writer. For feedback, you can email him at takudzwamazwienduna@gmail.com

@@ -150,5 +150,3 @@ All progress made will be buried and they will be picked off one by one by which
 We are outnumbered and outgunned. [What happened to Mubarak Bala](https://www.theguardian.com/books/2020/aug/06/wole-soyinka-protests-imprisonment-of-nigerian-humanist-mubarak-bala) and so many others in the past will only get worse unless we change our goal-oriented behaviour. We also must set up structures to protect ourselves and for growth in the now and in the future. It all starts with changing our approach to focus on connecting with people and not attacking their ideas.
 
 Thanks for reading. Share this post and save the future of African Humanism.
-
-Mxolisi Masuku is a humanist writer. For feedback, you can email him at mxolisi.b.masuku@gmail.com
