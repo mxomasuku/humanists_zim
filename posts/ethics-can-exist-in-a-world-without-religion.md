@@ -13,6 +13,7 @@ author:
   name: Eppnoggia Mutetwa
   picture: "/Uploads/img-20200617-wa0045.jpg"
   url: ''
+  email: "hello@humanists.co.zw"
 
 ---
 There are different religions in this world and one’s ability to subscribe to a specific religion is usually the unfortunate result of years of social engineering and indoctrination. In some rare exceptions, it is a magical occurrence resulting from free will and some personal individual journey. Ethics on the other hand are fluid and influenced by several social and geographical factors even though much like religion, a person’s ability to subscribe to different ethics is either a result of indoctrination or influenced by a self-introspective journey that allows them to be more aware of their identity and role in society. This article seeks to establish the difference between religion and ethics, the principles guiding each one and ultimately highlight that ethics can exist in a society without religion.

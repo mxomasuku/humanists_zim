@@ -11,6 +11,7 @@ author:
   name: Mxolisi B Masuku
   picture: "/StaticResources/mxolisi.jpg"
   url: '/mxolisi_b_masuku'
+  email: mxolisi.b.masuku@gmail.com
 
 ---
 
@@ -150,3 +151,4 @@ We are outnumbered and outgunned. [What happened to Mubarak Bala](https://www.th
 
 Thanks for reading. Share this post and save the future of African Humanism.
 
+Mxolisi Masuku is a humanist writer. For feedback, you can email him at mxolisi.b.masuku@gmail.com

@@ -2,8 +2,8 @@ import './globals.css'
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { Metadata } from 'next';
-// import GoogleAnalytics from './Components/GoogleAnalytics';
-// import CookieBanner from './Components/CookieBanner';
+import GoogleAnalytics from './Components/GoogleAnalytics';
+import CookieBanner from './Components/CookieBanner';
 export const metadata: Metadata = {
   title: 'Humanists Zimbabwe',
   description: 'Humanists Zimbabwe ',
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <GoogleAnalytics GA_MEASUREMENT_ID='G-G5EBGL9D5X'/> */}
+      <GoogleAnalytics GA_MEASUREMENT_ID='G-G5EBGL9D5X'/>
       <body className='body h-screen'>
 
           <div className='flex flex-col'>
@@ -31,6 +31,7 @@ export default function RootLayout({
           {children}
        <Footer/>
         </div>
+        <CookieBanner/>
       </body>
     </html>
   );

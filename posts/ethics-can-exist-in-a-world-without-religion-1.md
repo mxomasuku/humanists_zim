@@ -13,6 +13,7 @@ author:
   name: Bukhosi M Nyoni
   picture: "/Uploads/dscn3753.JPG"
   url: ''
+  email: "hello@humanists.co.zw"
 
 ---
 **ETHICS DEFINED**

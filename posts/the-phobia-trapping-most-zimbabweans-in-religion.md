@@ -11,6 +11,7 @@ author:
   name: Mxolisi B Masuku
   picture: "/StaticResources/mxolisi.jpg"
   url: '/mxolisi_b_masuku'
+  email: mxolisi.b.masuku@gmail.com
 
 ---
 
@@ -97,3 +98,6 @@ We cannot trust religious thinking because it uses fear as a model of governing 
 
 However, **constitutional reform is not enough, religious and possibly theophobic people still exist in our spaces and make decisions that could possibly affect our rights.** What we should seek instead are methods of assisting those crippled by theophobia. And most importantly ask ourselves:
 **How is theophobia preventing us from developing a unified empathetic society?**
+
+
+Mxolisi Masuku is a humanist writer. For feedback, you can email him at mxolisi.b.masuku@gmail.com

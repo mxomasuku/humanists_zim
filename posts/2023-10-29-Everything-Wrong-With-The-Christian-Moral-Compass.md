@@ -11,6 +11,7 @@ author:
   name: Takudzwa Mazwienduna
   picture: "/StaticResources/takudzwa.jpg"
   url: '/takudzwa_mazwienduna'
+  email: "takudzwamazwienduna@gmail.com"
 
 ---
 
@@ -40,3 +41,5 @@ This describes the “morality” of the bible. The original sin happens in the 
 Salvation is not morality, yet it is what numerous Christians in Zimbabwe and beyond have accepted as the ultimate moral standard. **Morality is doing what is good regardless of what a book says. Religion on the other hand is doing what a book says regardless of right and wrong**. The biblical God was happy with Abraham, not because he did not kill his son Isaac but because he almost did at God’s command. This spells out divine command instead of morality. Arthur C Clarke, the British Author Explorer once  said, “The greatest tragedy in human history is when religion hijacked  morality.”, Christianity certainly hijacked our morality.
 
 The Christian moral compass points in the wrong direction, as do many other religions with dogmatic doctrines. Morality should be based on reason and social intelligence. With time, we will cover more of these aspects in greater detail.
+
+Takudzwa Mazwienduna is a humanist writer. For feedback, you can email him at takudzwamazwienduna@gmail.com
