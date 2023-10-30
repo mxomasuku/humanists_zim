@@ -20,12 +20,12 @@ const FeatureCard = (props: PostMetaData) => {
         {props.title}
        </h2>
        <p className="px-2 text-xs text-gray-500 hidden md:block "> {props.excerpt}</p>
-    
+
       </Link>
       <div className="flex items-center m-2 px-2 hidden md:flex ">
       <Link
         href={`/author${props.author.url}`}
-       className="block w-10 h-10 ml-2 overflow-hidden rounded-full ring-2 ring-blue-400 focus:outline-none ">
+       className="block w-10 h-10 ml-2 overflow-hidden rounded-full ring-2 ring-pink-600 focus:outline-none ">
 
       <img
           src={props.author.picture}
