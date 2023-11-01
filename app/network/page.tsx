@@ -31,7 +31,7 @@ height={'1080'}
 </div>
 
 <Form/>
-<HubspotForm/>
+{/* <HubspotForm/> */}
 <NetworkGrid/>
 <div className='center'>
   <h4 className='text-md text-center'>Share our page in your community</h4>
