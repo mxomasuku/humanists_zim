@@ -8,7 +8,11 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/StaticResources/hero.png')",
        
-      }
+      },
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
